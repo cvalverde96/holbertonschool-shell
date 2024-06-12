@@ -30410,4 +30410,383 @@ drwxr-xr-x 2 root root    4096 Jun 12 14:48 [01;34mdir1[0m
 [38;5;130mfind . [m-type f [35m-name[m [38;5;130m"[m[31m*.js[m[38;5;130m"[m [35m-delete[m[2;36H[K[3;1H[94m~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H1,1[11CAll[1;1H[?25h[?12$p[?25l[38;1H[K[38;1H:[?25hq[?25l[?2004l[>4;m[23;2t[23;1t[38;1H[K[38;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim 11
 [?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"11" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                       [3;1H~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H0,0-1[9CAll[1;1H[?25h[?12$p[?25l[38;1H[K[38;1H:[?25hq[?25l[?2004l[>4;m[23;2t[23;1t[38;1H[K[38;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim 11-directories 
 [?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"11-directories" 2L, 35B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
-[38;5;130mfind . [m-type d | wc [35m-l[m[2;23H[K[3;1H[94m~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H1,1[11CAll[1;1H[?25h[?12$p[?25l[38;1H[1m-- INSERT --[m[38;13H[K[38;55H1,1[11CAll[1;1H[?25h[?25l[38;55H2[2;1H[?25h[?25l[38;57H2[2;2H[?25h[?25l[38;57H3[2;3H[?25h[?25l[38;57H4[2;4H[?25h[?25l[38;57H5[2;5H[?25h[?25l[38;57H6[2;6H[?25h[?25l[38;57H7[2;7H[?25h[?25l[38;57H8[2;8H[?25h[?25l[38;57H9[2;9H[?25h[?25l[38;57H10[2;10H[?25h[?25l[38;58H1[2;11H[?25h[?25l[38;58H2[2;12H[?25h[?25l[38;58H3[2;13H[?25h[?25l[38;58H4[2;14H[?25h[?25l[38;58H5[2;15H[?25h[?25l[38;58H6[2;16H[?25h[?25l[38;58H7[2;17H[?25h[?25l[38;58H8[2;18H[?25h[?25l[38;58H9[2;19H[?25h[?25l[38;57H20[2;20H[?25h[?25l[38;58H1[2;21H[?25h[?25l[38;58H2[2;22H[?25h[?25l[38;58H3[2;23H[?25h[?25l-[2;22H[K[38;58H2[2;22H[?25h
+[38;5;130mfind . [m-type d | wc [35m-l[m[2;23H[K[3;1H[94m~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H1,1[11CAll[1;1H[?25h[?12$p[?25l[38;1H[1m-- INSERT --[m[38;13H[K[38;55H1,1[11CAll[1;1H[?25h[?25l[38;55H2[2;1H[?25h[?25l[38;57H2[2;2H[?25h[?25l[38;57H3[2;3H[?25h[?25l[38;57H4[2;4H[?25h[?25l[38;57H5[2;5H[?25h[?25l[38;57H6[2;6H[?25h[?25l[38;57H7[2;7H[?25h[?25l[38;57H8[2;8H[?25h[?25l[38;57H9[2;9H[?25h[?25l[38;57H10[2;10H[?25h[?25l[38;58H1[2;11H[?25h[?25l[38;58H2[2;12H[?25h[?25l[38;58H3[2;13H[?25h[?25l[38;58H4[2;14H[?25h[?25l[38;58H5[2;15H[?25h[?25l[38;58H6[2;16H[?25h[?25l[38;58H7[2;17H[?25h[?25l[38;58H8[2;18H[?25h[?25l[38;58H9[2;19H[?25h[?25l[38;57H20[2;20H[?25h[?25l[38;58H1[2;21H[?25h[?25l[38;58H2[2;22H[?25h[?25l[38;58H3[2;23H[?25h[?25l-[2;22H[K[38;58H2[2;22H[?25h[?25l[2;21H[K[38;58H1[2;21H[?25h[?25l[38;58H0[2;20H[?25h[?25l[2;19H[K[38;57H19[2;19H[?25h[?25l[2;18H[K[38;58H8[2;18H[?25h[?25l[38;58H7[2;17H[?25h[?25l[2;16H[K[38;58H6[2;16H[?25h[?25l[38;58H5[2;15H[?25h[?25l[2;14H[K[38;58H4[2;14H[?25h[?25l[38;58H3[2;13H[?25h[?25l[2;12H[K[38;58H2[2;12H[?25h[?25l[2;11H[K[38;58H1[2;11H[?25h[?25l[2;10H[K[38;58H0[2;10H[?25h[?25l[2;9H[K[38;57H9 [2;9H[?25h[?25l[2;8H[K[38;57H8[2;8H[?25h[?25l .[2;7H[K[38;57H7[2;7H[?25h[?25l[2;6H[K[38;57H6[2;6H[?25h[?25l[38;57H5[2;5H[?25h[?25lfin[2;4H[K[38;57H4[2;4H[?25h[?25l[97m[101mfi[m[2;3H[K[38;57H3[2;3H[?25h[?25lf[2;2H[K[38;57H2[2;2H[?25h[?25l[2;1H[K[38;57H1[2;1H[?25h[?25l[38;5;130mfind . [m-mi[?25h[?25lndepth [31m1[m [35m-type[m d[?25h[?25l | wc [35m-l[?25h[?25l[m[38;57H35[2;35H[?25h[38;1H[K[2;34H[?25l[38;55H2,34[10CAll[2;34H[?25h[?25l[38;55H[K[38;1H:[?25hx[?25l[?2004l[>4;m"11-directories" 2L, 47B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# bash script
+[?2004ltype commit message : 
+"anadiendo comando correcto al 11."
+[main 9f803eb] message
+ 2 files changed, 100 insertions(+), 2 deletions(-)
+Enumerating objects: 9, done.
+Counting objects:  11% (1/9)Counting objects:  22% (2/9)Counting objects:  33% (3/9)Counting objects:  44% (4/9)Counting objects:  55% (5/9)Counting objects:  66% (6/9)Counting objects:  77% (7/9)Counting objects:  88% (8/9)Counting objects: 100% (9/9)Counting objects: 100% (9/9), done.
+Delta compression using up to 20 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 1.59 KiB | 163.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To github.com:cvalverde96/holbertonschool-shell.git
+   74d8fd3..9f803eb  main -> main
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim bash
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"bash" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                       [3;1H~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H0,0-1[9CAll[1;1H[?25h[?12$p[?25l[38;1H[K[38;1H:[?25hq[?25l[?2004l[>4;m[23;2t[23;1t[38;1H[K[38;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim script 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"script" 7L, 111B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash [m
+[38;5;130mchmod[m [35m+x[m *[2;11H[K[3;1Hgit add .[3;10H[K[4;1H[38;5;130mecho[m[31m [m[38;5;130m"[m[31mtype commit message : [m[38;5;130m"[m[31m [m
+[38;5;130mread[m message
+git commit [35m-m[m message
+git push
+[94m~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H1,1[11CAll[1;1H[?25h[?12$p[?25l[38;1H[K[38;1H:[?25hq[?25l[?2004l[>4;m[23;2t[23;1t[38;1H[K[38;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# s[Kman sot[Krt
+[?2004l[?1049h[22;0;0t[?1h=SORT(1)                      User Commands                     SORT(1)[m
+[m
+[1mNAME[0m[m
+       sort - sort lines of text files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1msort[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+       [1msort[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Write sorted concatenation of all FILE(s) to standard output.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       Mandatory arguments to long options are mandatory for short op‐[m
+       tions too.  Ordering options:[m
+[m
+       [1m-b[0m, [1m--ignore-leading-blanks[0m[m
+              ignore leading blanks[m
+[m
+       [1m-d[0m, [1m--dictionary-order[0m[m
+              consider only blanks and alphanumeric characters[m
+[m
+       [1m-f[0m, [1m--ignore-case[0m[m
+              fold lower case to upper case characters[m
+[m
+       [1m-g[0m, [1m--general-numeric-sort[0m[m
+              compare according to general numerical value[m
+[m
+       [1m-i[0m, [1m--ignore-nonprinting[0m[m
+              consider only printable characters[m
+[m
+       [1m-M[0m, [1m--month-sort[0m[m
+              compare (unknown) < 'JAN' < ... < 'DEC'[m
+[m
+       [1m-h[0m, [1m--human-numeric-sort[0m[m
+              compare human readable numbers (e.g., 2K 1G)[m
+[7m Manual page sort(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--numeric-sort[0m[m
+[7m Manual page sort(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              compare according to string numerical value[m
+[7m Manual page sort(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[0m, [1m--random-sort[0m[m
+[7m Manual page sort(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              shuffle, but group identical keys.  See shuf(1)[m
+[7m Manual page sort(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--random-source[0m=[4mFILE[24m[m
+[7m Manual page sort(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              get random bytes from FILE[m
+[7m Manual page sort(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m, [1m--reverse[0m[m
+[7m Manual page sort(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              reverse the result of comparisons[m
+[7m Manual page sort(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--sort[0m=[4mWORD[24m[m
+[7m Manual page sort(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              sort according to WORD:  general-numeric  [1m-g[0m,  human-nu‐[m
+[7m Manual page sort(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              meric [1m-h[0m, month [1m-M[0m, numeric [1m-n[0m, random [1m-R[0m, version [1m-V[0m[m
+[7m Manual page sort(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-V[0m, [1m--version-sort[0m[m
+[7m Manual page sort(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              natural sort of (version) numbers within text[m
+[7m Manual page sort(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Other options:[m
+[7m Manual page sort(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--batch-size[0m=[4mNMERGE[24m[m
+[7m Manual page sort(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              merge  at  most NMERGE inputs at once; for more use temp[m
+[7m Manual page sort(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              files[m
+[7m Manual page sort(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m, [1m--check[0m, [1m--check[0m=[4mdiagnose-first[24m[m
+[7m Manual page sort(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              check for sorted input; do not sort[m
+[7m Manual page sort(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-C[0m, [1m--check[0m=[4mquiet[24m, [1m--check[0m=[4msilent[24m[m
+[7m Manual page sort(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              like [1m-c[0m, but do not report first bad line[m
+[7m Manual page sort(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--compress-program[0m=[4mPROG[24m[m
+[7m Manual page sort(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              compress temporaries with  PROG;  decompress  them  with[m
+[7m Manual page sort(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              PROG [1m-d[0m[m
+[7m Manual page sort(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--debug[0m[m
+[7m Manual page sort(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              annotate  the  part  of  the line used to sort, and warn[m
+[7m Manual page sort(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              about questionable usage to stderr[m
+[7m Manual page sort(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--files0-from[0m=[4mF[24m[m
+[7m Manual page sort(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              read input from the files  specified  by  NUL-terminated[m
+[7m Manual page sort(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              names in file F; If F is - then read names from standard[m
+[7m Manual page sort(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              input[m
+[7m Manual page sort(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k[0m, [1m--key[0m=[4mKEYDEF[24m[m
+[7m Manual page sort(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              sort via a key; KEYDEF gives location and type[m
+[7m Manual page sort(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[0m, [1m--merge[0m[m
+[7m Manual page sort(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              merge already sorted files; do not sort[m
+[7m Manual page sort(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-o[0m, [1m--output[0m=[4mFILE[24m[m
+[7m Manual page sort(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              write result to FILE instead of standard output[m
+[7m Manual page sort(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--stable[0m[m
+[7m Manual page sort(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              stabilize sort by disabling last-resort comparison[m
+[7m Manual page sort(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-S[0m, [1m--buffer-size[0m=[4mSIZE[24m[m
+[7m Manual page sort(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use SIZE for main memory buffer[m
+[7m Manual page sort(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m, [1m--field-separator[0m=[4mSEP[24m[m
+[7m Manual page sort(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use SEP instead of non-blank to blank transition[m
+[7m Manual page sort(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-T[0m, [1m--temporary-directory[0m=[4mDIR[24m[m
+[7m Manual page sort(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use DIR for temporaries, not $TMPDIR or  [4m/tmp[24m;  multiple[m
+[7m Manual page sort(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              options specify multiple directories[m
+[7m Manual page sort(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--parallel[0m=[4mN[24m[m
+[7m Manual page sort(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              change the number of sorts run concurrently to N[m
+[7m Manual page sort(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m, [1m--unique[0m[m
+[7m Manual page sort(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              with  [1m-c[0m,  check for strict ordering; without [1m-c[0m, output[m
+[7m Manual page sort(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              only the first of an equal run[m
+[7m Manual page sort(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-z[0m, [1m--zero-terminated[0m[m
+[7m Manual page sort(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              line delimiter is NUL, not newline[m
+[7m Manual page sort(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page sort(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page sort(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page sort(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       KEYDEF is F[.C][OPTS][,F[.C][OPTS]] for start  and  stop  posi‐[m
+[7m Manual page sort(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       tion,  where  F is a field number and C a character position in[m
+[7m Manual page sort(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the field; both are origin 1, and the stop position defaults to[m
+[7m Manual page sort(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the  line's end.  If neither [1m-t[0m nor [1m-b[0m is in effect, characters[m
+[7m Manual page sort(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       in a field are counted from  the  beginning  of  the  preceding[m
+[7m Manual page sort(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       whitespace.  OPTS is one or more single-letter ordering options[m
+[7m Manual page sort(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [bdfgiMhnRrV], which override global ordering options for  that[m
+[7m Manual page sort(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       key.   If no key is given, use the entire line as the key.  Use[m
+[7m Manual page sort(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--debug[0m to diagnose incorrect key usage.[m
+[7m Manual page sort(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       SIZE may be followed by the following multiplicative  suffixes:[m
+[7m Manual page sort(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       %  1%  of memory, b 1, K 1024 (default), and so on for M, G, T,[m
+[7m Manual page sort(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       P, E, Z, Y.[m
+[7m Manual page sort(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       *** WARNING *** The locale specified by the environment affects[m
+[7m Manual page sort(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       sort  order.   Set  LC_ALL=C  to get the traditional sort order[m
+[7m Manual page sort(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       that uses native byte values.[m
+[7m Manual page sort(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page sort(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by Mike Haertel and Paul Eggert.[m
+[7m Manual page sort(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page sort(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help:  <https://www.gnu.org/software/core‐[m
+[7m Manual page sort(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       utils/>[m
+[7m Manual page sort(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report   any   translation   bugs  to  <https://translationpro‐[m
+[7m Manual page sort(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ject.org/team/>[m
+[7m Manual page sort(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page sort(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright  ©  2020  Free  Software  Foundation,  Inc.   License[m
+[7m Manual page sort(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GPLv3+:   GNU  GPL  version  3  or  later  <https://gnu.org/li‐[m
+[7m Manual page sort(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       censes/gpl.html>.[m
+[7m Manual page sort(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This is free software: you are free to change and  redistribute[m
+[7m Manual page sort(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       it.  There is NO WARRANTY, to the extent permitted by law.[m
+[7m Manual page sort(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page sort(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       shuf(1), uniq(1)[m
+[7m Manual page sort(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Full      documentation     <https://www.gnu.org/software/core‐[m
+[7m Manual page sort(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       utils/sort>[m
+[7m Manual page sort(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or available locally via: info '(coreutils) sort invocation'[m
+[7m Manual page sort(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.32           February 2024                     SORT(1)[m
+[7m Manual page sort(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page sort(1) line 125/161 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       in a field are counted from  the  beginning  of  the  preceding[m
+[38;1H[K[7m Manual page sort(1) line 124/161 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the  line's end.  If neither [1m-t[0m nor [1m-b[0m is in effect, characters[m
+[38;1H[K[7m Manual page sort(1) line 123/161 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the field; both are origin 1, and the stop position defaults to[m
+[38;1H[K[7m Manual page sort(1) line 122/161 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       tion,  where  F is a field number and C a character position in[m
+[38;1H[K[7m Manual page sort(1) line 121/161 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       KEYDEF is F[.C][OPTS][,F[.C][OPTS]] for start  and  stop  posi‐[m
+[38;1H[K[7m Manual page sort(1) line 120/161 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 119/161 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              output version information and exit[m
+[38;1H[K[7m Manual page sort(1) line 118/161 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--version[0m[m
+[38;1H[K[7m Manual page sort(1) line 117/161 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 116/161 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--help[0m display this help and exit[m
+[38;1H[K[7m Manual page sort(1) line 115/161 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 114/161 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              line delimiter is NUL, not newline[m
+[38;1H[K[7m Manual page sort(1) line 113/161 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-z[0m, [1m--zero-terminated[0m[m
+[38;1H[K[7m Manual page sort(1) line 112/161 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 111/161 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              only the first of an equal run[m
+[38;1H[K[7m Manual page sort(1) line 110/161 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              with  [1m-c[0m,  check for strict ordering; without [1m-c[0m, output[m
+[38;1H[K[7m Manual page sort(1) line 109/161 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-u[0m, [1m--unique[0m[m
+[38;1H[K[7m Manual page sort(1) line 108/161 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 107/161 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              change the number of sorts run concurrently to N[m
+[38;1H[K[7m Manual page sort(1) line 106/161 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--parallel[0m=[4mN[24m[m
+[38;1H[K[7m Manual page sort(1) line 105/161 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 104/161 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              options specify multiple directories[m
+[38;1H[K[7m Manual page sort(1) line 103/161 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use DIR for temporaries, not $TMPDIR or  [4m/tmp[24m;  multiple[m
+[38;1H[K[7m Manual page sort(1) line 102/161 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-T[0m, [1m--temporary-directory[0m=[4mDIR[24m[m
+[38;1H[K[7m Manual page sort(1) line 101/161 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 100/161 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use SEP instead of non-blank to blank transition[m
+[38;1H[K[7m Manual page sort(1) line 99/161 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-t[0m, [1m--field-separator[0m=[4mSEP[24m[m
+[38;1H[K[7m Manual page sort(1) line 98/161 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 97/161 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use SIZE for main memory buffer[m
+[38;1H[K[7m Manual page sort(1) line 96/161 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-S[0m, [1m--buffer-size[0m=[4mSIZE[24m[m
+[38;1H[K[7m Manual page sort(1) line 95/161 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 94/161 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              stabilize sort by disabling last-resort comparison[m
+[38;1H[K[7m Manual page sort(1) line 93/161 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-s[0m, [1m--stable[0m[m
+[38;1H[K[7m Manual page sort(1) line 92/161 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 91/161 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              write result to FILE instead of standard output[m
+[38;1H[K[7m Manual page sort(1) line 90/161 79% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-o[0m, [1m--output[0m=[4mFILE[24m[m
+[38;1H[K[7m Manual page sort(1) line 89/161 78% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 88/161 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              merge already sorted files; do not sort[m
+[38;1H[K[7m Manual page sort(1) line 87/161 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-m[0m, [1m--merge[0m[m
+[38;1H[K[7m Manual page sort(1) line 86/161 74% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 85/161 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              sort via a key; KEYDEF gives location and type[m
+[38;1H[K[7m Manual page sort(1) line 84/161 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-k[0m, [1m--key[0m=[4mKEYDEF[24m[m
+[38;1H[K[7m Manual page sort(1) line 83/161 71% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 82/161 71% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              input[m
+[38;1H[K[7m Manual page sort(1) line 81/161 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              names in file F; If F is - then read names from standard[m
+[38;1H[K[7m Manual page sort(1) line 80/161 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              read input from the files  specified  by  NUL-terminated[m
+[38;1H[K[7m Manual page sort(1) line 79/161 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--files0-from[0m=[4mF[24m[m
+[38;1H[K[7m Manual page sort(1) line 78/161 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 77/161 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              about questionable usage to stderr[m
+[38;1H[K[7m Manual page sort(1) line 76/161 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              annotate  the  part  of  the line used to sort, and warn[m
+[38;1H[K[7m Manual page sort(1) line 75/161 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--debug[0m[m
+[38;1H[K[7m Manual page sort(1) line 74/161 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 73/161 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              PROG [1m-d[0m[m
+[38;1H[K[7m Manual page sort(1) line 72/161 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              compress temporaries with  PROG;  decompress  them  with[m
+[38;1H[K[7m Manual page sort(1) line 71/161 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--compress-program[0m=[4mPROG[24m[m
+[38;1H[K[7m Manual page sort(1) line 70/161 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 69/161 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              like [1m-c[0m, but do not report first bad line[m
+[38;1H[K[7m Manual page sort(1) line 68/161 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-C[0m, [1m--check[0m=[4mquiet[24m, [1m--check[0m=[4msilent[24m[m
+[38;1H[K[7m Manual page sort(1) line 67/161 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 66/161 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              check for sorted input; do not sort[m
+[38;1H[K[7m Manual page sort(1) line 65/161 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-c[0m, [1m--check[0m, [1m--check[0m=[4mdiagnose-first[24m[m
+[38;1H[K[7m Manual page sort(1) line 64/161 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 63/161 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              files[m
+[38;1H[K[7m Manual page sort(1) line 62/161 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              merge  at  most NMERGE inputs at once; for more use temp[m
+[38;1H[K[7m Manual page sort(1) line 61/161 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--batch-size[0m=[4mNMERGE[24m[m
+[38;1H[K[7m Manual page sort(1) line 60/161 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 59/161 57% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Other options:[m
+[38;1H[K[7m Manual page sort(1) line 58/161 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 57/161 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              natural sort of (version) numbers within text[m
+[38;1H[K[7m Manual page sort(1) line 56/161 55% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-V[0m, [1m--version-sort[0m[m
+[38;1H[K[7m Manual page sort(1) line 55/161 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 54/161 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              meric [1m-h[0m, month [1m-M[0m, numeric [1m-n[0m, random [1m-R[0m, version [1m-V[0m[m
+[38;1H[K[7m Manual page sort(1) line 53/161 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              sort according to WORD:  general-numeric  [1m-g[0m,  human-nu‐[m
+[38;1H[K[7m Manual page sort(1) line 52/161 52% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--sort[0m=[4mWORD[24m[m
+[38;1H[K[7m Manual page sort(1) line 51/161 52% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 50/161 52% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              reverse the result of comparisons[m
+[38;1H[K[7m Manual page sort(1) line 49/161 51% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-r[0m, [1m--reverse[0m[m
+[38;1H[K[7m Manual page sort(1) line 48/161 51% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 47/161 50% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              get random bytes from FILE[m
+[38;1H[K[7m Manual page sort(1) line 46/161 49% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--random-source[0m=[4mFILE[24m[m
+[38;1H[K[7m Manual page sort(1) line 45/161 49% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 44/161 49% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              shuffle, but group identical keys.  See shuf(1)[m
+[38;1H[K[7m Manual page sort(1) line 43/161 48% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-R[0m, [1m--random-sort[0m[m
+[38;1H[K[7m Manual page sort(1) line 42/161 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 41/161 46% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              compare according to string numerical value[m
+[38;1H[K[7m Manual page sort(1) line 40/161 46% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-n[0m, [1m--numeric-sort[0m[m
+[38;1H[K[7m Manual page sort(1) line 39/161 45% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 38/161 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              compare human readable numbers (e.g., 2K 1G)[m
+[38;1H[K[7m Manual page sort(1) line 37/161 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-h[0m, [1m--human-numeric-sort[0m[m
+[38;1H[K[7m Manual page sort(1) line 36/161 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 35/161 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              compare (unknown) < 'JAN' < ... < 'DEC'[m
+[38;1H[K[7m Manual page sort(1) line 34/161 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-M[0m, [1m--month-sort[0m[m
+[38;1H[K[7m Manual page sort(1) line 33/161 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 32/161 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              consider only printable characters[m
+[38;1H[K[7m Manual page sort(1) line 31/161 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-i[0m, [1m--ignore-nonprinting[0m[m
+[38;1H[K[7m Manual page sort(1) line 30/161 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 29/161 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              compare according to general numerical value[m
+[38;1H[K[7m Manual page sort(1) line 28/161 38% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-g[0m, [1m--general-numeric-sort[0m[m
+[38;1H[K[7m Manual page sort(1) line 27/161 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 26/161 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              fold lower case to upper case characters[m
+[38;1H[K[7m Manual page sort(1) line 25/161 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-f[0m, [1m--ignore-case[0m[m
+[38;1H[K[7m Manual page sort(1) line 24/161 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 23/161 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              consider only blanks and alphanumeric characters[m
+[38;1H[K[7m Manual page sort(1) line 22/161 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-d[0m, [1m--dictionary-order[0m[m
+[38;1H[K[7m Manual page sort(1) line 21/161 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 20/161 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              ignore leading blanks[m
+[38;1H[K[7m Manual page sort(1) line 19/161 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-b[0m, [1m--ignore-leading-blanks[0m[m
+[38;1H[K[7m Manual page sort(1) line 18/161 32% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 17/161 32% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       tions too.  Ordering options:[m
+[38;1H[K[7m Manual page sort(1) line 16/161 31% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Mandatory arguments to long options are mandatory for short op‐[m
+[38;1H[K[7m Manual page sort(1) line 15/161 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 14/161 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       With no FILE, or when FILE is -, read standard input.[m
+[38;1H[K[7m Manual page sort(1) line 13/161 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 12/161 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Write sorted concatenation of all FILE(s) to standard output.[m
+[38;1H[K[7m Manual page sort(1) line 11/161 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[38;1H[K[7m Manual page sort(1) line 10/161 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 9/161 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1msort[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
+[38;1H[K[7m Manual page sort(1) line 8/161 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1msort[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[38;1H[K[7m Manual page sort(1) line 7/161 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[38;1H[K[7m Manual page sort(1) line 6/161 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page sort(1) line 5/161 24% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[0m, [1m--random-sort[0m[m
+[7m Manual page sort(1) line 6/161 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              shuffle, but group identical keys.  See shuf(1)[m
+[7m Manual page sort(1) line 7/161 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 8/161 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--random-source[0m=[4mFILE[24m[m
+[7m Manual page sort(1) line 9/161 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              get random bytes from FILE[m
+[7m Manual page sort(1) line 10/161 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 11/161 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[0m, [1m--reverse[0m[m
+[7m Manual page sort(1) line 12/161 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              reverse the result of comparisons[m
+[7m Manual page sort(1) line 13/161 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 14/161 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--sort[0m=[4mWORD[24m[m
+[7m Manual page sort(1) line 15/161 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              sort according to WORD:  general-numeric  [1m-g[0m,  human-nu‐[m
+[7m Manual page sort(1) line 16/161 31% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              meric [1m-h[0m, month [1m-M[0m, numeric [1m-n[0m, random [1m-R[0m, version [1m-V[0m[m
+[7m Manual page sort(1) line 17/161 32% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 18/161 32% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-V[0m, [1m--version-sort[0m[m
+[7m Manual page sort(1) line 19/161 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              natural sort of (version) numbers within text[m
+[7m Manual page sort(1) line 20/161 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 21/161 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Other options:[m
+[7m Manual page sort(1) line 22/161 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 23/161 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--batch-size[0m=[4mNMERGE[24m[m
+[7m Manual page sort(1) line 24/161 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              merge  at  most NMERGE inputs at once; for more use temp[m
+[7m Manual page sort(1) line 25/161 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              files[m
+[7m Manual page sort(1) line 26/161 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 27/161 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[0m, [1m--check[0m, [1m--check[0m=[4mdiagnose-first[24m[m
+[7m Manual page sort(1) line 28/161 38% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              check for sorted input; do not sort[m
+[7m Manual page sort(1) line 29/161 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 30/161 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-C[0m, [1m--check[0m=[4mquiet[24m, [1m--check[0m=[4msilent[24m[m
+[7m Manual page sort(1) line 31/161 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              like [1m-c[0m, but do not report first bad line[m
+[7m Manual page sort(1) line 32/161 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 33/161 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--compress-program[0m=[4mPROG[24m[m
+[7m Manual page sort(1) line 34/161 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              compress temporaries with  PROG;  decompress  them  with[m
+[7m Manual page sort(1) line 35/161 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              PROG [1m-d[0m[m
+[7m Manual page sort(1) line 36/161 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 37/161 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--debug[0m[m
+[7m Manual page sort(1) line 38/161 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              annotate  the  part  of  the line used to sort, and warn[m
+[7m Manual page sort(1) line 39/161 45% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              about questionable usage to stderr[m
+[7m Manual page sort(1) line 40/161 46% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 41/161 46% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--files0-from[0m=[4mF[24m[m
+[7m Manual page sort(1) line 42/161 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              read input from the files  specified  by  NUL-terminated[m
+[7m Manual page sort(1) line 43/161 48% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              names in file F; If F is - then read names from standard[m
+[7m Manual page sort(1) line 44/161 49% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              input[m
+[7m Manual page sort(1) line 45/161 49% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 46/161 49% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k[0m, [1m--key[0m=[4mKEYDEF[24m[m
+[7m Manual page sort(1) line 47/161 50% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              sort via a key; KEYDEF gives location and type[m
+[7m Manual page sort(1) line 48/161 51% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 49/161 51% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[0m, [1m--merge[0m[m
+[7m Manual page sort(1) line 50/161 52% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              merge already sorted files; do not sort[m
+[7m Manual page sort(1) line 51/161 52% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 52/161 52% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-o[0m, [1m--output[0m=[4mFILE[24m[m
+[7m Manual page sort(1) line 53/161 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              write result to FILE instead of standard output[m
+[7m Manual page sort(1) line 54/161 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 55/161 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--stable[0m[m
+[7m Manual page sort(1) line 56/161 55% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              stabilize sort by disabling last-resort comparison[m
+[7m Manual page sort(1) line 57/161 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 58/161 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-S[0m, [1m--buffer-size[0m=[4mSIZE[24m[m
+[7m Manual page sort(1) line 59/161 57% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use SIZE for main memory buffer[m
+[7m Manual page sort(1) line 60/161 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page sort(1) line 61/161 58% (press h for help or q to quit)[27m[K[K...skipping...
+              merge  at  most NMERGE inputs at once; for more use temp[m
+              files[m
+[m
+       [1m-c[0m, [1m--check[0m, [1m--check[0m=[4mdiagnose-first[24m[m
+              check for sorted input; do not sort[m
+[m
+       [1m-C[0m, [1m--check[0m=[4mquiet[24m, [1m--check[0m=[4msilent[24m[m
+              like [1m-c[0m, but do not report first bad line[m
+[m
+       [1m--compress-program[0m=[4mPROG[24m[m
+              compress temporaries with  PROG;  decompress  them  with[m
+              PROG [1m-d[0m[m
+[m
+       [1m--debug[0m[m
+              annotate  the  part  of  the line used to sort, and warn[m
+              about questionable usage to stderr[m
+[m
+       [1m--files0-from[0m=[4mF[24m[m
+              read input from the files  specified  by  NUL-terminated[
