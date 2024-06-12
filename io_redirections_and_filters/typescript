@@ -30789,4 +30789,114 @@ git push
               about questionable usage to stderr[m
 [m
        [1m--files0-from[0m=[4mF[24m[m
-              read input from the files  specified  by  NUL-terminated[
+              read input from the files  specified  by  NUL-terminated[m
+              names in file F; If F is - then read names from standard[m
+              input[m
+[m
+       [1m-k[0m, [1m--key[0m=[4mKEYDEF[24m[m
+              sort via a key; KEYDEF gives location and type[m
+[m
+       [1m-m[0m, [1m--merge[0m[m
+              merge already sorted files; do not sort[m
+[m
+       [1m-o[0m, [1m--output[0m=[4mFILE[24m[m
+              write result to FILE instead of standard output[m
+[m
+       [1m-s[0m, [1m--stable[0m[m
+              stabilize sort by disabling last-resort comparison[m
+[m
+       [1m-S[0m, [1m--buffer-size[0m=[4mSIZE[24m[m
+              use SIZE for main memory buffer[m
+[m
+[7m Manual page sort(1) line 61/161 58% (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# sort -v
+[?2004lsort: invalid option -- 'v'
+Try 'sort --help' for more information.
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# sort --v
+[?2004lsort: option '--v' is ambiguous; possibilities: '--version-sort' '--version'
+Try 'sort --help' for more information.
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls 
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m4-lastlines[0m   [01;32m9-duplicate_last_line[0m  [01;32mls_cwd_content[0m
+[01;32m10-no_more_js[0m      [01;32m5-firstlines[0m  [01;34mdir.js[0m                 [01;32mscript[0m
+[01;32m11-directories[0m     [01;32m6-third_line[0m  [01;34mdir1[0m                   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m7-file[0m        [01;32mhello[0m
+[01;32m3-twofiles[0m         [01;32m8-cwd_state[0m   [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls | sort -n
+[?2004ldir.js
+dir1
+hello
+iacta
+ls_cwd_content
+script
+typescript
+1-confused_smiley
+2-hellofile
+3-twofiles
+4-lastlines
+5-firstlines
+6-third_line
+7-file
+8-cwd_state
+9-duplicate_last_line
+10-no_more_js
+11-directories
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls -lt
+[?2004ltotal 1932
+-rwxr-xr-x 1 root root      37 Jun 12 17:18 [0m[01;32m9-duplicate_last_line[0m
+-rwxr-xr-x 1 root root     860 Jun 12 17:18 [01;32miacta[0m
+-rwxr-xr-x 1 root root 1908736 Jun 12 15:15 [01;32mtypescript[0m
+-rwxr-xr-x 1 root root      47 Jun 12 15:08 [01;32m11-directories[0m
+-rwxr-xr-x 1 root root      48 Jun 12 14:49 [01;32m10-no_more_js[0m
+drwxr-xr-x 2 root root    4096 Jun 12 14:48 [01;34mdir1[0m
+-rwxr-xr-x 1 root root       0 Jun 12 14:17 [01;32mhello[0m
+drwxr-xr-x 2 root root    4096 Jun 12 14:16 [01;34mdir.js[0m
+-rwxr-xr-x 1 root root      36 Jun 12 13:05 [01;32m8-cwd_state[0m
+-rwxr-xr-x 1 root root     699 Jun 12 13:04 [01;32mls_cwd_content[0m
+-rwxr-xr-x 1 root root      62 Jun 12 12:58 [01;32m7-file[0m
+-rwxr-xr-x 1 root root      39 Jun 12 11:00 [01;32m6-third_line[0m
+-rwxr-xr-x 1 root root      35 Jun 12 10:51 [01;32m5-firstlines[0m
+-rwxr-xr-x 1 root root      35 Jun 12 10:50 [01;32m4-lastlines[0m
+-rwxr-xr-x 1 root root      39 Jun 12 10:48 [01;32m3-twofiles[0m
+-rwxr-xr-x 1 root root     111 Jun 12 10:41 [01;32mscript[0m
+-rwxr-xr-x 1 root root      28 Jun 12 10:27 [01;32m2-hellofile[0m
+-rwxr-xr-x 1 root root      28 Jun 12 10:23 [01;32m1-confused_smiley[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls -lt 0[K-n q0[K[K10
+[?2004lls: cannot access '10': No such file or directory
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls -n 10 -lt
+[?2004lls: cannot access '10': No such file or directory
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls -lt
+[?2004ltotal 1936
+-rwxr-xr-x 1 root root 1912832 Jun 12 17:29 [0m[01;32mtypescript[0m
+-rwxr-xr-x 1 root root      37 Jun 12 17:18 [01;32m9-duplicate_last_line[0m
+-rwxr-xr-x 1 root root     860 Jun 12 17:18 [01;32miacta[0m
+-rwxr-xr-x 1 root root      47 Jun 12 15:08 [01;32m11-directories[0m
+-rwxr-xr-x 1 root root      48 Jun 12 14:49 [01;32m10-no_more_js[0m
+drwxr-xr-x 2 root root    4096 Jun 12 14:48 [01;34mdir1[0m
+-rwxr-xr-x 1 root root       0 Jun 12 14:17 [01;32mhello[0m
+drwxr-xr-x 2 root root    4096 Jun 12 14:16 [01;34mdir.js[0m
+-rwxr-xr-x 1 root root      36 Jun 12 13:05 [01;32m8-cwd_state[0m
+-rwxr-xr-x 1 root root     699 Jun 12 13:04 [01;32mls_cwd_content[0m
+-rwxr-xr-x 1 root root      62 Jun 12 12:58 [01;32m7-file[0m
+-rwxr-xr-x 1 root root      39 Jun 12 11:00 [01;32m6-third_line[0m
+-rwxr-xr-x 1 root root      35 Jun 12 10:51 [01;32m5-firstlines[0m
+-rwxr-xr-x 1 root root      35 Jun 12 10:50 [01;32m4-lastlines[0m
+-rwxr-xr-x 1 root root      39 Jun 12 10:48 [01;32m3-twofiles[0m
+-rwxr-xr-x 1 root root     111 Jun 12 10:41 [01;32mscript[0m
+-rwxr-xr-x 1 root root      28 Jun 12 10:27 [01;32m2-hellofile[0m
+-rwxr-xr-x 1 root root      28 Jun 12 10:23 [01;32m1-confused_smiley[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls -lt | sort n[K-n 10
+[?2004lsort: cannot read: 10: No such file or directory
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls -lt | sort -n 10[K[K[K[K[K[K[K[K[K[K[K head-n [K[K[K -n 1-
+[?2004lhead: invalid number of lines: ‘1-’
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls -lt | head -n 1-[K0
+[?2004ltotal 1936
+-rwxr-xr-x 1 root root 1912832 Jun 12 17:29 typescript
+-rwxr-xr-x 1 root root      37 Jun 12 17:18 9-duplicate_last_line
+-rwxr-xr-x 1 root root     860 Jun 12 17:18 iacta
+-rwxr-xr-x 1 root root      47 Jun 12 15:08 11-directories
+-rwxr-xr-x 1 root root      48 Jun 12 14:49 10-no_more_js
+drwxr-xr-x 2 root root    4096 Jun 12 14:48 dir1
+-rwxr-xr-x 1 root root       0 Jun 12 14:17 hello
+drwxr-xr-x 2 root root    4096 Jun 12 14:16 dir.js
+-rwxr-xr-x 1 root root      36 Jun 12 13:05 8-cwd_state
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim [7m12-newest_files[27m[C[C[C[C[C[C[C[C[C12-newest_files
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"12-newest_files" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                       [3;1H~                                                                       [4;1H~                                                                       [5;1H~                                                                
