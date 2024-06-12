@@ -30899,4 +30899,174 @@ drwxr-xr-x 2 root root    4096 Jun 12 14:48 dir1
 drwxr-xr-x 2 root root    4096 Jun 12 14:16 dir.js
 -rwxr-xr-x 1 root root      36 Jun 12 13:05 8-cwd_state
 [?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim [7m12-newest_files[27m[C[C[C[C[C[C[C[C[C12-newest_files
-[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"12-newest_files" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                       [3;1H~                                                                       [4;1H~                                                                       [5;1H~                                                                
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"12-newest_files" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                       [3;1H~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H0,0-1[9CAll[1;1H[?25h[?12$p[?25l[38;1H[1m-- INSERT --[m[38;13H[K[38;55H0,1[11CAll[1;1H[?25h[?25l#[38;55H1,2[1;2H[?25h[?25l![38;57H3[1;3H[?25h[?25l/[38;57H4[1;4H[?25h[?25lb[38;57H5[1;5H[?25h[?25li[38;57H6[1;6H[?25h[?25ln[38;57H7[1;7H[?25h[?25l/[38;57H8[1;8H[?25h[?25lb[38;57H9[1;9H[?25h[?25la[38;57H10[1;10H[?25h[?25ls[38;58H1[1;11H[?25h[?25lh[38;58H2[1;12H[?25h[?25l[2;1H[K[38;55H2,1 [2;1H[?25h[?25ll[38;57H2[2;2H[?25h[?25ls[38;57H3[2;3H[?25h[?25l[38;57H4[2;4H[?25h[?25l-[38;57H5[2;5H[?25h[?25ll[38;57H6[2;6H[?25h[?25lt[38;57H7[2;7H[?25h[?25l[38;57H8[2;8H[?25h[?25l|[38;57H9[2;9H[?25h[?25l[38;57H10[2;10H[?25h[?25lh[38;58H1[2;11H[?25h[?25le[38;58H2[2;12H[?25h[?25la[38;58H3[2;13H[?25h[?25ld[38;58H4[2;14H[?25h[?25l[38;58H5[2;15H[?25h[?25l-[38;58H6[2;16H[?25h[?25ln[38;58H7[2;17H[?25h[?25l[38;58H8[2;18H[?25h[?25l1[38;58H9[2;19H[?25h[?25l0[38;57H20[2;20H[?25h[38;1H[K[2;19H[?25l[38;55H2,19[10CAll[2;19H[?25h[?25l[38;55H[K[38;1H:[?25hx[?25l[?2004l[>4;m"12-newest_files" [New] 2L, 32B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# bash script 
+[?2004ltype commit message : 
+"demostrar top 10 files en directory."
+[main cead89b] message
+ 2 files changed, 113 insertions(+), 1 deletion(-)
+ create mode 100755 io_redirections_and_filters/12-newest_files
+Enumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Delta compression using up to 20 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 1.45 KiB | 57.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To github.com:cvalverde96/holbertonschool-shell.git
+   2853199..cead89b  main -> main
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# bash 12-newest_files 
+[?2004ltotal 1948
+-rwxr-xr-x 1 root root 1921024 Jun 12 17:32 typescript
+-rwxr-xr-x 1 root root      32 Jun 12 17:32 12-newest_files
+-rwxr-xr-x 1 root root      37 Jun 12 17:18 9-duplicate_last_line
+-rwxr-xr-x 1 root root     860 Jun 12 17:18 iacta
+-rwxr-xr-x 1 root root      47 Jun 12 15:08 11-directories
+-rwxr-xr-x 1 root root      48 Jun 12 14:49 10-no_more_js
+drwxr-xr-x 2 root root    4096 Jun 12 14:48 dir1
+-rwxr-xr-x 1 root root       0 Jun 12 14:17 hello
+drwxr-xr-x 2 root root    4096 Jun 12 14:16 dir.js
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find -[K. -type f
+[?2004l./9-duplicate_last_line
+./10-no_more_js
+./3-twofiles
+./11-directories
+./8-cwd_state
+./hello
+./2-hellofile
+./ls_cwd_content
+./4-lastlines
+./6-third_line
+./typescript
+./iacta
+./12-newest_files
+./5-firstlines
+./1-confused_smiley
+./7-file
+./script
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f | ls -lt
+[?2004ltotal 1948
+-rwxr-xr-x 1 root root 1921024 Jun 12 17:32 [0m[01;32mtypescript[0m
+-rwxr-xr-x 1 root root      32 Jun 12 17:32 [01;32m12-newest_files[0m
+-rwxr-xr-x 1 root root      37 Jun 12 17:18 [01;32m9-duplicate_last_line[0m
+-rwxr-xr-x 1 root root     860 Jun 12 17:18 [01;32miacta[0m
+-rwxr-xr-x 1 root root      47 Jun 12 15:08 [01;32m11-directories[0m
+-rwxr-xr-x 1 root root      48 Jun 12 14:49 [01;32m10-no_more_js[0m
+drwxr-xr-x 2 root root    4096 Jun 12 14:48 [01;34mdir1[0m
+-rwxr-xr-x 1 root root       0 Jun 12 14:17 [01;32mhello[0m
+drwxr-xr-x 2 root root    4096 Jun 12 14:16 [01;34mdir.js[0m
+-rwxr-xr-x 1 root root      36 Jun 12 13:05 [01;32m8-cwd_state[0m
+-rwxr-xr-x 1 root root     699 Jun 12 13:04 [01;32mls_cwd_content[0m
+-rwxr-xr-x 1 root root      62 Jun 12 12:58 [01;32m7-file[0m
+-rwxr-xr-x 1 root root      39 Jun 12 11:00 [01;32m6-third_line[0m
+-rwxr-xr-x 1 root root      35 Jun 12 10:51 [01;32m5-firstlines[0m
+-rwxr-xr-x 1 root root      35 Jun 12 10:50 [01;32m4-lastlines[0m
+-rwxr-xr-x 1 root root      39 Jun 12 10:48 [01;32m3-twofiles[0m
+-rwxr-xr-x 1 root root     111 Jun 12 10:41 [01;32mscript[0m
+-rwxr-xr-x 1 root root      28 Jun 12 10:27 [01;32m2-hellofile[0m
+-rwxr-xr-x 1 root root      28 Jun 12 10:23 [01;32m1-confused_smiley[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls -lt 
+[?2004ltotal 1948
+-rwxr-xr-x 1 root root 1921024 Jun 12 17:32 [0m[01;32mtypescript[0m
+-rwxr-xr-x 1 root root      32 Jun 12 17:32 [01;32m12-newest_files[0m
+-rwxr-xr-x 1 root root      37 Jun 12 17:18 [01;32m9-duplicate_last_line[0m
+-rwxr-xr-x 1 root root     860 Jun 12 17:18 [01;32miacta[0m
+-rwxr-xr-x 1 root root      47 Jun 12 15:08 [01;32m11-directories[0m
+-rwxr-xr-x 1 root root      48 Jun 12 14:49 [01;32m10-no_more_js[0m
+drwxr-xr-x 2 root root    4096 Jun 12 14:48 [01;34mdir1[0m
+-rwxr-xr-x 1 root root       0 Jun 12 14:17 [01;32mhello[0m
+drwxr-xr-x 2 root root    4096 Jun 12 14:16 [01;34mdir.js[0m
+-rwxr-xr-x 1 root root      36 Jun 12 13:05 [01;32m8-cwd_state[0m
+-rwxr-xr-x 1 root root     699 Jun 12 13:04 [01;32mls_cwd_content[0m
+-rwxr-xr-x 1 root root      62 Jun 12 12:58 [01;32m7-file[0m
+-rwxr-xr-x 1 root root      39 Jun 12 11:00 [01;32m6-third_line[0m
+-rwxr-xr-x 1 root root      35 Jun 12 10:51 [01;32m5-firstlines[0m
+-rwxr-xr-x 1 root root      35 Jun 12 10:50 [01;32m4-lastlines[0m
+-rwxr-xr-x 1 root root      39 Jun 12 10:48 [01;32m3-twofiles[0m
+-rwxr-xr-x 1 root root     111 Jun 12 10:41 [01;32mscript[0m
+-rwxr-xr-x 1 root root      28 Jun 12 10:27 [01;32m2-hellofile[0m
+-rwxr-xr-x 1 root root      28 Jun 12 10:23 [01;32m1-confused_smiley[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls -lt | find -[K. -type f
+[?2004l./9-duplicate_last_line
+./10-no_more_js
+./3-twofiles
+./11-directories
+./8-cwd_state
+./hello
+./2-hellofile
+./ls_cwd_content
+./4-lastlines
+./6-third_line
+./typescript
+./iacta
+./12-newest_files
+./5-firstlines
+./1-confused_smiley
+./7-file
+./script
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls -lt | find . -type f | head -n 1-[K0
+[?2004l./9-duplicate_last_line
+./10-no_more_js
+./3-twofiles
+./11-directories
+./8-cwd_state
+./hello
+./2-hellofile
+./ls_cwd_content
+./4-lastlines
+./6-third_line
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls -lt
+[?2004ltotal 1952
+-rwxr-xr-x 1 root root 1925120 Jun 12 17:34 [0m[01;32mtypescript[0m
+-rwxr-xr-x 1 root root      32 Jun 12 17:32 [01;32m12-newest_files[0m
+-rwxr-xr-x 1 root root      37 Jun 12 17:18 [01;32m9-duplicate_last_line[0m
+-rwxr-xr-x 1 root root     860 Jun 12 17:18 [01;32miacta[0m
+-rwxr-xr-x 1 root root      47 Jun 12 15:08 [01;32m11-directories[0m
+-rwxr-xr-x 1 root root      48 Jun 12 14:49 [01;32m10-no_more_js[0m
+drwxr-xr-x 2 root root    4096 Jun 12 14:48 [01;34mdir1[0m
+-rwxr-xr-x 1 root root       0 Jun 12 14:17 [01;32mhello[0m
+drwxr-xr-x 2 root root    4096 Jun 12 14:16 [01;34mdir.js[0m
+-rwxr-xr-x 1 root root      36 Jun 12 13:05 [01;32m8-cwd_state[0m
+-rwxr-xr-x 1 root root     699 Jun 12 13:04 [01;32mls_cwd_content[0m
+-rwxr-xr-x 1 root root      62 Jun 12 12:58 [01;32m7-file[0m
+-rwxr-xr-x 1 root root      39 Jun 12 11:00 [01;32m6-third_line[0m
+-rwxr-xr-x 1 root root      35 Jun 12 10:51 [01;32m5-firstlines[0m
+-rwxr-xr-x 1 root root      35 Jun 12 10:50 [01;32m4-lastlines[0m
+-rwxr-xr-x 1 root root      39 Jun 12 10:48 [01;32m3-twofiles[0m
+-rwxr-xr-x 1 root root     111 Jun 12 10:41 [01;32mscript[0m
+-rwxr-xr-x 1 root root      28 Jun 12 10:27 [01;32m2-hellofile[0m
+-rwxr-xr-x 1 root root      28 Jun 12 10:23 [01;32m1-confused_smiley[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . typ[K[K[K-tyoe f -exec ls -lt {} +
+[?2004lfind: unknown predicate `-tyoe'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -tyoe f -exec ls -lt {} +[1P[1@p
+[?2004l-rwxr-xr-x 1 root root 1925120 Jun 12 17:34 ./typescript
+-rwxr-xr-x 1 root root      32 Jun 12 17:32 ./12-newest_files
+-rwxr-xr-x 1 root root      37 Jun 12 17:18 ./9-duplicate_last_line
+-rwxr-xr-x 1 root root     860 Jun 12 17:18 ./iacta
+-rwxr-xr-x 1 root root      47 Jun 12 15:08 ./11-directories
+-rwxr-xr-x 1 root root      48 Jun 12 14:49 ./10-no_more_js
+-rwxr-xr-x 1 root root       0 Jun 12 14:17 ./hello
+-rwxr-xr-x 1 root root      36 Jun 12 13:05 ./8-cwd_state
+-rwxr-xr-x 1 root root     699 Jun 12 13:04 ./ls_cwd_content
+-rwxr-xr-x 1 root root      62 Jun 12 12:58 ./7-file
+-rwxr-xr-x 1 root root      39 Jun 12 11:00 ./6-third_line
+-rwxr-xr-x 1 root root      35 Jun 12 10:51 ./5-firstlines
+-rwxr-xr-x 1 root root      35 Jun 12 10:50 ./4-lastlines
+-rwxr-xr-x 1 root root      39 Jun 12 10:48 ./3-twofiles
+-rwxr-xr-x 1 root root     111 Jun 12 10:41 ./script
+-rwxr-xr-x 1 root root      28 Jun 12 10:27 ./2-hellofile
+-rwxr-xr-x 1 root root      28 Jun 12 10:23 ./1-confused_smiley
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -exec ls -lt {} + | head -n 10
+[?2004l-rwxr-xr-x 1 root root 1929216 Jun 12 17:36 ./typescript
+-rwxr-xr-x 1 root root      32 Jun 12 17:32 ./12-newest_files
+-rwxr-xr-x 1 root root      37 Jun 12 17:18 ./9-duplicate_last_line
+-rwxr-xr-x 1 root root     860 Jun 12 17:18 ./iacta
+-rwxr-xr-x 1 root root      47 Jun 12 15:08 ./11-directories
+-rwxr-xr-x 1 root root      48 Jun 12 14:49 ./10-no_more_js
+-rwxr-xr-x 1 root root       0 Jun 12 14:17 ./hello
+-rwxr-xr-x 1 root root      36 Jun 12 13:05 ./8-cwd_state
+-rwxr-xr-x 1 root root     699 Jun 12 13:04 ./ls_cwd_content
+-rwxr-xr-x 1 root root      62 Jun 12 12:58 ./7-file
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim 12-newest_files 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"12-newest_files" 2L, 32B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+[38;5;130mls[m [35m-lt[m | head [35m-n[m [31m10[m[2;20H[K[3;1H[94m~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~      
