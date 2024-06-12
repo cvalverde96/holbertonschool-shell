@@ -29885,4 +29885,114 @@ Try 'rm --help' for more information.
 [7m Manual page find(1) line 740 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Delete files; true if removal succeeded.  If the removal[m
 [7m Manual page find(1) line 741 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              failed,  an  error message is issued.  If [1m-delete[0m fails,[m
 [7m Manual page find(1) line 742 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mfind[0m's exit status will be nonzero (when  it  eventually[m
-[7m Manual page find(1) line 743 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              exits).   Use  of  [1m-delet
+[7m Manual page find(1) line 743 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              exits).   Use  of  [1m-delete[0m  automatically  turns  on the[m
+[7m Manual page find(1) line 744 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              `[1m-depth[0m' option.[m
+[7m Manual page find(1) line 745 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page find(1) line 746 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mWarnings[0m: Don't forget that the  find  command  line  is[m
+[7m Manual page find(1) line 747 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              evaluated  as  an  expression,  so putting [1m-delete[0m first[m
+[7m Manual page find(1) line 748 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              will make [1mfind[0m try to delete everything below the start‐[m
+[7m Manual page find(1) line 749 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ing  points  you specified.  When testing a [1mfind[0m command[m
+[7m Manual page find(1) line 750 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              line that you later intend  to  use  with  [1m-delete[0m,  you[m
+[7m Manual page find(1) line 751 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              should explicitly specify [1m-depth[0m in order to avoid later[m
+[7m Manual page find(1) line 752 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              surprises.  Because [1m-delete[0m implies [1m-depth[0m,  you  cannot[m
+[7m Manual page find(1) line 753 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              usefully use [1m-prune[0m and [1m-delete[0m together.[m
+[7m Manual page find(1) line 754 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page find(1) line 755 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Together with the [1m-ignore_readdir_race[0m option, [1mfind[0m will[m
+[7m Manual page find(1) line 756 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ignore errors of the [1m-delete[0m action in the case the file[m
+[7m Manual page find(1) line 757 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              has  disappeared since the parent directory was read: it[m
+[7m Manual page find(1) line 758 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              will not output an error diagnostic, and the return code[m
+[7m Manual page find(1) line 759 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              of the [1m-delete[0m action will be true.[m
+[7m Manual page find(1) line 760 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page find(1) line 761 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -exec [4mcommand[24m ;[m
+[7m Manual page find(1) line 762 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Execute [4mcommand[24m; true if 0 status is returned.  All fol‐[m
+[7m Manual page find(1) line 763 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              lowing arguments to [1mfind[0m are taken to  be  arguments  to[m
+[7m Manual page find(1) line 764 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              the  command  until an argument consisting of `;' is en‐[m
+[7m Manual page find(1) line 765 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filters/testroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters/test# ls
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filters/testroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters/test# cd ..
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m4-lastlines[0m   [01;32m8-cwd_state[0m  [01;32miacta[0m
+[01;32m10-no_more_js[0m      [01;32m5-firstlines[0m  [01;34mdir.js[0m       [01;32mls_cwd_content[0m
+[01;32m2-hellofile[0m        [01;32m6-third_line[0m  [01;34mdir1[0m         [01;32mscript[0m
+[01;32m3-twofiles[0m         [01;32m7-file[0m        hello        [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mfind . -type f -name "*.js"[27m[C[C[C[C[Cfind . -type f -name "*.js"
+[?2004l./dir1/code.js
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mfind . -type f -name "*.js" |rm *.js[27m[C[C[C[C[Cfind . -type f -name "*.js" |rm *.js
+[?2004lrm: cannot remove 'dir.js': Is a directory
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls[K[Kfind . -type f -name "*.js" |rm *.js[K[C[C[C[C[Cls[Kfind . -type f -name "*.js"
+[?2004l./dir1/code.js
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -name "*.js" |rm *.js[7m -type f[27m*.js -type f *.js
+[?2004lrm: invalid option -- 't'
+Try 'rm --help' for more information.
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -name "*.js" |rm  -type f *.js[K
+[?2004l./dir1/code.js
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m4-lastlines[0m   [01;32m8-cwd_state[0m  [01;32miacta[0m
+[01;32m10-no_more_js[0m      [01;32m5-firstlines[0m  [01;34mdir.js[0m       [01;32mls_cwd_content[0m
+[01;32m2-hellofile[0m        [01;32m6-third_line[0m  [01;34mdir1[0m         [01;32mscript[0m
+[01;32m3-twofiles[0m         [01;32m7-file[0m        hello        [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsfind . -type f -name "*.js"
+[?2004l./dir1/code.js
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -name "*.js"[C[C[C[C[Cls[Kfind . -type f -name "*.js" |rm  -type f *.js[K |rm *.js[1@ 
+[?2004lrm: cannot remove 'dir.js': Is a directory
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -name "*.js" | rm *.js[K[K[K[K
+[?2004lrm: missing operand
+Try 'rm --help' for more information.
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -name "*.js" | rm [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfind -[Kx[K/=[K[K. -type f -delete[K[K[K[K[K[K[Kde[K[K-delete *.js
+[?2004lfind: paths must precede expression: `dir.js'
+find: possible unquoted pattern after predicate `-delete'?
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -delete *.js[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l./10-no_more_js
+./3-twofiles
+./8-cwd_state
+./hello
+./2-hellofile
+./ls_cwd_content
+./4-lastlines
+./dir1/code.js
+./6-third_line
+./typescript
+./iacta
+./5-firstlines
+./1-confused_smiley
+./7-file
+./script
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f *.js
+[?2004lfind: paths must precede expression: `dir.js'
+find: possible unquoted pattern after predicate `-type'?
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f *.js"*.js^[*.js[2~*.js^?*.js[2P*.js[1P*.js[1P*.js[1P*.js[2P*.js[C[C[C[C"
+[?2004lfind: paths must precede expression: `*.js'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f "*.js"[K[K[K[K[K[K[K
+[?2004l./10-no_more_js
+./3-twofiles
+./8-cwd_state
+./hello
+./2-hellofile
+./ls_cwd_content
+./4-lastlines
+./dir1/code.js
+./6-third_line
+./typescript
+./iacta
+./5-firstlines
+./1-confused_smiley
+./7-file
+./script
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f .js
+[?2004lfind: paths must precede expression: `.js'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim 10-no_more_js 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"10-no_more_js" 2L, 49B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+[38;5;130mfind . [m-type f [35m-name[m [38;5;130m"[m[31m*.js[m[38;5;130m"[m |[38;5;130mrm[m *.js[2;37H[K[3;1H[94m~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H1,1[11CAll[1;1H[?25h[?12$p[?25l[38;1H[K[38;1H:[?25hq[?25l[?2004l[>4;m[23;2t[23;1t[38;1H[K[38;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mfind . -type f -name "*.js"[27m[C[C[C[C[Cfind . -type f -name "*.js"
+[?2004l./dir1/code.js
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -name "*.js"[C[1P "*.js"[1P "*.js"[1P "*.js"[1P "*.js"d "*.js"e "*.js"l "*.js"e "*.js"t "*.js"e "*.js"
+[?2004lfind: paths must precede expression: `*.js'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -delete "*.js"[1P "*.js"[1P "*.js"[1P "*.js"[1P "*.js"[1P "*.js"[1P "*.js"n "*.js"a "*.js"m "*.js"e "*.js"[C[C[C[C[C[C[C -delte[K[Kete
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m4-lastlines[0m   [01;32m8-cwd_state[0m  [01;32miacta[0m
+[01;32m10-no_more_js[0m      [01;32m5-firstlines[0m  [01;34mdir.js[0m       [01;32mls_cwd_content[0m
+[01;32m2-hellofile[0m        [01;32m6-third_line[0m  [01;34mdir1[0m         [01;32mscript[0m
+[01;32m3-twofiles[0m         [01;32m7-file[0m        hello        [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsfind . -type f -name "*.js" -delete[K[K[K[K[K[K[K
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -name "*.js" [C[C[C[C[Cls[Kfind . -type f -name "*.js" -delete[H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -name "*.js" -delete[H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -name "*.js" -delete^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim 10-no_more_js 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"10-no_more_js" 2L, 49B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+[38;5;130mfind . [m-type f [35m-name[m [38;5;130m"[m[31m*.js[m[38;5;130m"[m |[38;5;130mrm[m *.js[2;37H[K[3;1H[94m~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H1,1[11CAll[1;1H[?25h[?12$p[?25l[38;1H[1m-- INSERT --[m[38;13H[K[38;55H1,1[11CAll[1;1H[?25h[?25l[38;55H2[2;1H[?25h[?25l[38;57H2[2;2H[?25h[?25l[38;57H3[2;3H[?25h[?25l[38;57H4[2;4H[?25h[?25l[38;57H5[2;5H[?25h[?25l[38;57H6[2;6H[?25h[?25l[38;
