@@ -29995,4 +29995,321 @@ find: possible unquoted pattern after predicate `-type'?
 [?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -name "*.js" [C[C[C[C[Cls[Kfind . -type f -name "*.js" -delete[H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -name "*.js" -delete[H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type f -name "*.js" -delete^C[?2004l[?2004h[?2004l
 [?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim 10-no_more_js 
 [?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"10-no_more_js" 2L, 49B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
-[38;5;130mfind . [m-type f [35m-name[m [38;5;130m"[m[31m*.js[m[38;5;130m"[m |[38;5;130mrm[m *.js[2;37H[K[3;1H[94m~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H1,1[11CAll[1;1H[?25h[?12$p[?25l[38;1H[1m-- INSERT --[m[38;13H[K[38;55H1,1[11CAll[1;1H[?25h[?25l[38;55H2[2;1H[?25h[?25l[38;57H2[2;2H[?25h[?25l[38;57H3[2;3H[?25h[?25l[38;57H4[2;4H[?25h[?25l[38;57H5[2;5H[?25h[?25l[38;57H6[2;6H[?25h[?25l[38;
+[38;5;130mfind . [m-type f [35m-name[m [38;5;130m"[m[31m*.js[m[38;5;130m"[m |[38;5;130mrm[m *.js[2;37H[K[3;1H[94m~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H1,1[11CAll[1;1H[?25h[?12$p[?25l[38;1H[1m-- INSERT --[m[38;13H[K[38;55H1,1[11CAll[1;1H[?25h[?25l[38;55H2[2;1H[?25h[?25l[38;57H2[2;2H[?25h[?25l[38;57H3[2;3H[?25h[?25l[38;57H4[2;4H[?25h[?25l[38;57H5[2;5H[?25h[?25l[38;57H6[2;6H[?25h[?25l[38;57H7[2;7H[?25h[?25l[38;57H8[2;8H[?25h[?25l[38;57H9[2;9H[?25h[?25l[38;57H10[2;10H[?25h[?25l[38;58H1[2;11H[?25h[?25l[38;58H2[2;12H[?25h[?25l[38;58H3[2;13H[?25h[?25l[38;58H4[2;14H[?25h[?25l[38;58H5[2;15H[?25h[?25l[38;58H6[2;16H[?25h[?25l[38;58H7[2;17H[?25h[?25l[38;58H8[2;18H[?25h[?25l[38;58H9[2;19H[?25h[?25l[38;57H20[2;20H[?25h[?25l[38;58H1[2;21H[?25h[?25l[38;58H2[2;22H[?25h[?25l[38;58H3[2;23H[?25h[?25l[38;58H4[2;24H[?25h[?25l[38;58H5[2;25H[?25h[?25l[38;58H6[2;26H[?25h[?25l[38;58H7[2;27H[?25h[?25l[38;58H8[2;28H[?25h[?25l[38;58H9[2;29H[?25h[?25l[38;57H30[2;30H[?25h[?25l[38;58H1[2;31H[?25h[?25l[38;58H2[2;32H[?25h[?25l[38;58H3[2;33H[?25h[?25l[38;58H4[2;34H[?25h[?25l[38;58H5[2;35H[?25h[?25l[38;58H6[2;36H[?25h[?25l[38;58H7[2;37H[?25h[?25l[2;36H[K[38;58H6[2;36H[?25h[?25l[2;35H[K[38;58H5[2;35H[?25h[?25l[2;34H[K[38;58H4[2;34H[?25h[?25l[2;33H[K[38;58H3[2;33H[?25h[?25l[38;58H2[2;32H[?25h[?25lr[2;31H[K[38;58H1[2;31H[?25h[?25l[2;30H[K[38;58H0[2;30H[?25h[?25l[2;29H[K[38;57H29[2;29H[?25h[?25l[38;58H8[2;28H[?25h[?25l[38;58H9[2;29H[?25h[?25l-[38;57H30[2;30H[?25h[?25l[35m-d[m[38;58H1[2;31H[?25h[?25l[35me[m[38;58H2[2;32H[?25h[?25l[35ml[m[38;58H3[2;33H[?25h[?25l[35me[m[38;58H4[2;34H[?25h[?25l[35mt[m[38;58H5[2;35H[?25h[?25l[35me[m[38;58H6[2;36H[?25h[38;1H[K[2;35H[?25l[38;55H2,35[10CAll[2;35H[?25h[?25l[38;55H[K[38;1H:[?25hx[?25l[?2004l[>4;m"10-no_more_js" 2L, 48B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# bash as[K[Kscript 
+[?2004ltype commit message : 
+"arreglando ej e   l ejercicio 10"
+[main 0aa056e] message
+ 6 files changed, 112 insertions(+), 3 deletions(-)
+ rename io_redirections_and_filters/{test/.js => hello} (100%)
+ mode change 100644 => 100755
+ delete mode 100644 io_redirections_and_filters/test/ll/text.js
+ delete mode 100644 io_redirections_and_filters/test/rm
+ delete mode 100644 io_redirections_and_filters/test/texto.txt
+Enumerating objects: 10, done.
+Counting objects:  10% (1/10)Counting objects:  20% (2/10)Counting objects:  30% (3/10)Counting objects:  40% (4/10)Counting objects:  50% (5/10)Counting objects:  60% (6/10)Counting objects:  70% (7/10)Counting objects:  80% (8/10)Counting objects:  90% (9/10)Counting objects: 100% (10/10)Counting objects: 100% (10/10), done.
+Delta compression using up to 20 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 1.49 KiB | 152.00 KiB/s, done.
+Total 6 (delta 3), reused 1 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To github.com:cvalverde96/holbertonschool-shell.git
+   08ab01a..0aa056e  main -> main
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# va[K[Kcat 8-cwd_state 
+[?2004l#!/bin/bash
+ls -la > ls_cwd_content
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m4-lastlines[0m   [01;32m8-cwd_state[0m  [01;32miacta[0m
+[01;32m10-no_more_js[0m      [01;32m5-firstlines[0m  [01;34mdir.js[0m       [01;32mls_cwd_content[0m
+[01;32m2-hellofile[0m        [01;32m6-third_line[0m  [01;34mdir1[0m         [01;32mscript[0m
+[01;32m3-twofiles[0m         [01;32m7-file[0m        [01;32mhello[0m        [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# cat 10-no_more_js 
+[?2004l#!/bin/bash
+find . -type f -name "*.js" -delete
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# man wc
+[?2004l[?1049h[22;0;0t[?1h=WC(1)                        User Commands                       WC(1)[m
+[m
+[1mNAME[0m[m
+       wc - print newline, word, and byte counts for each file[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mwc[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+       [1mwc[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Print newline, word, and byte counts for each FILE, and a total[m
+       line if  more  than  one  FILE  is  specified.   A  word  is  a[m
+       non-zero-length  sequence  of  characters  delimited  by  white[m
+       space.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       The options below may  be  used  to  select  which  counts  are[m
+       printed,  always in the following order: newline, word, charac‐[m
+       ter, byte, maximum line length.[m
+[m
+       [1m-c[0m, [1m--bytes[0m[m
+              print the byte counts[m
+[m
+       [1m-m[0m, [1m--chars[0m[m
+              print the character counts[m
+[m
+       [1m-l[0m, [1m--lines[0m[m
+              print the newline counts[m
+[m
+       [1m--files0-from[0m=[4mF[24m[m
+              read input from the files  specified  by  NUL-terminated[m
+              names in file F; If F is - then read names from standard[m
+              input[m
+[m
+       [1m-L[0m, [1m--max-line-length[0m[m
+              print the maximum display width[m
+[7m Manual page wc(1) line 1 (press h for help or q to quit)[27m[K[K...skipping...
+WC(1)                        User Commands                       WC(1)[m
+[m
+[1mNAME[0m[m
+       wc - print newline, word, and byte counts for each file[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mwc[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+       [1mwc[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Print newline, word, and byte counts for each FILE, and a total[m
+       line if  more  than  one  FILE  is  specified.   A  word  is  a[m
+       non-zero-length  sequence  of  characters  delimited  by  white[m
+       space.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       The options below may  be  used  to  select  which  counts  are[m
+       printed,  always in the following order: newline, word, charac‐[m
+       ter, byte, maximum line length.[m
+[m
+       [1m-c[0m, [1m--bytes[0m[m
+              print the byte counts[m
+[m
+       [1m-m[0m, [1m--chars[0m[m
+              print the character counts[m
+[m
+       [1m-l[0m, [1m--lines[0m[m
+              print the newline counts[m
+[m
+       [1m--files0-from[0m=[4mF[24m[m
+              read input from the files  specified  by  NUL-terminated[m
+              names in file F; If F is - then read names from standard[m
+              input[m
+[m
+       [1m-L[0m, [1m--max-line-length[0m[m
+              print the maximum display width[m
+[7m Manual page wc(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# wc
+[?2004l^C
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m4-lastlines[0m   [01;32m8-cwd_state[0m  [01;32miacta[0m
+[01;32m10-no_more_js[0m      [01;32m5-firstlines[0m  [01;34mdir.js[0m       [01;32mls_cwd_content[0m
+[01;32m2-hellofile[0m        [01;32m6-third_line[0m  [01;34mdir1[0m         [01;32mscript[0m
+[01;32m3-twofiles[0m         [01;32m7-file[0m        [01;32mhello[0m        [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# c[Kwx[Kc
+[?2004l^C
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# man wx
+[?2004lNo manual entry for wx
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# man wc
+[?2004l[?1049h[22;0;0t[?1h=WC(1)                        User Commands                       WC(1)[m
+[m
+[1mNAME[0m[m
+       wc - print newline, word, and byte counts for each file[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mwc[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+       [1mwc[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Print newline, word, and byte counts for each FILE, and a total[m
+       line if  more  than  one  FILE  is  specified.   A  word  is  a[m
+       non-zero-length  sequence  of  characters  delimited  by  white[m
+       space.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       The options below may  be  used  to  select  which  counts  are[m
+       printed,  always in the following order: newline, word, charac‐[m
+       ter, byte, maximum line length.[m
+[m
+       [1m-c[0m, [1m--bytes[0m[m
+              print the byte counts[m
+[m
+       [1m-m[0m, [1m--chars[0m[m
+              print the character counts[m
+[m
+       [1m-l[0m, [1m--lines[0m[m
+              print the newline counts[m
+[m
+       [1m--files0-from[0m=[4mF[24m[m
+              read input from the files  specified  by  NUL-terminated[m
+              names in file F; If F is - then read names from standard[m
+              input[m
+[m
+       [1m-L[0m, [1m--max-line-length[0m[m
+              print the maximum display width[m
+[7m Manual page wc(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[0m, [1m--words[0m[m
+[7m Manual page wc(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              print the word counts[m
+[7m Manual page wc(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page wc(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page wc(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page wc(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page wc(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by Paul Rubin and David MacKenzie.[m
+[7m Manual page wc(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page wc(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help:  <https://www.gnu.org/software/core‐[m
+[7m Manual page wc(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       utils/>[m
+[7m Manual page wc(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report   any   translation   bugs  to  <https://translationpro‐[m
+[7m Manual page wc(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ject.org/team/>[m
+[7m Manual page wc(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page wc(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright  ©  2020  Free  Software  Foundation,  Inc.   License[m
+[7m Manual page wc(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GPLv3+:   GNU  GPL  version  3  or  later  <https://gnu.org/li‐[m
+[7m Manual page wc(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       censes/gpl.html>.[m
+[7m Manual page wc(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This is free software: you are free to change and  redistribute[m
+[7m Manual page wc(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       it.  There is NO WARRANTY, to the extent permitted by law.[m
+[7m Manual page wc(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page wc(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Full documentation <https://www.gnu.org/software/coreutils/wc>[m
+[7m Manual page wc(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or available locally via: info '(coreutils) wc invocation'[m
+[7m Manual page wc(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.32           February 2024                       WC(1)[m
+[7m Manual page wc(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 30/67 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              print the newline counts[m
+[38;1H[K[7m Manual page wc(1) line 29/67 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-l[0m, [1m--lines[0m[m
+[38;1H[K[7m Manual page wc(1) line 28/67 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 27/67 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              print the character counts[m
+[38;1H[K[7m Manual page wc(1) line 26/67 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-m[0m, [1m--chars[0m[m
+[38;1H[K[7m Manual page wc(1) line 25/67 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 24/67 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              print the byte counts[m
+[38;1H[K[7m Manual page wc(1) line 23/67 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-c[0m, [1m--bytes[0m[m
+[38;1H[K[7m Manual page wc(1) line 22/67 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 21/67 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ter, byte, maximum line length.[m
+[38;1H[K[7m Manual page wc(1) line 20/67 78% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       printed,  always in the following order: newline, word, charac‐[m
+[38;1H[K[7m Manual page wc(1) line 19/67 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The options below may  be  used  to  select  which  counts  are[m
+[38;1H[K[7m Manual page wc(1) line 18/67 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 17/67 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       With no FILE, or when FILE is -, read standard input.[m
+[38;1H[K[7m Manual page wc(1) line 16/67 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 15/67 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       space.[m
+[38;1H[K[7m Manual page wc(1) line 14/67 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       non-zero-length  sequence  of  characters  delimited  by  white[m
+[38;1H[K[7m Manual page wc(1) line 13/67 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       line if  more  than  one  FILE  is  specified.   A  word  is  a[m
+[38;1H[K[7m Manual page wc(1) line 12/67 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Print newline, word, and byte counts for each FILE, and a total[m
+[38;1H[K[7m Manual page wc(1) line 11/67 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[38;1H[K[7m Manual page wc(1) line 10/67 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 9/67 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mwc[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
+[38;1H[K[7m Manual page wc(1) line 8/67 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mwc[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[38;1H[K[7m Manual page wc(1) line 7/67 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[38;1H[K[7m Manual page wc(1) line 6/67 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 5/67 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       wc - print newline, word, and byte counts for each file[m
+[38;1H[K[7m Manual page wc(1) line 4/67 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[38;1H[K[7m Manual page wc(1) line 3/67 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 2/67 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMWC(1)                        User Commands                       WC(1)[m
+[38;1H[K[7m Manual page wc(1) line 1/67 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/67 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page wc(1) line 1/67 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 2/67 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[0m, [1m--words[0m[m
+[7m Manual page wc(1) line 3/67 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              print the word counts[m
+[7m Manual page wc(1) line 4/67 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 5/67 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page wc(1) line 6/67 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 7/67 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page wc(1) line 8/67 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page wc(1) line 9/67 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 10/67 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page wc(1) line 11/67 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by Paul Rubin and David MacKenzie.[m
+[7m Manual page wc(1) line 12/67 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 13/67 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[7m Manual page wc(1) line 14/67 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help:  <https://www.gnu.org/software/core‐[m
+[7m Manual page wc(1) line 15/67 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       utils/>[m
+[7m Manual page wc(1) line 16/67 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report   any   translation   bugs  to  <https://translationpro‐[m
+[7m Manual page wc(1) line 17/67 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ject.org/team/>[m
+[7m Manual page wc(1) line 18/67 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 19/67 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page wc(1) line 20/67 78% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright  ©  2020  Free  Software  Foundation,  Inc.   License[m
+[7m Manual page wc(1) line 21/67 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GPLv3+:   GNU  GPL  version  3  or  later  <https://gnu.org/li‐[m
+[7m Manual page wc(1) line 22/67 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       censes/gpl.html>.[m
+[7m Manual page wc(1) line 23/67 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This is free software: you are free to change and  redistribute[m
+[7m Manual page wc(1) line 24/67 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       it.  There is NO WARRANTY, to the extent permitted by law.[m
+[7m Manual page wc(1) line 25/67 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 26/67 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page wc(1) line 27/67 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Full documentation <https://www.gnu.org/software/coreutils/wc>[m
+[7m Manual page wc(1) line 28/67 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or available locally via: info '(coreutils) wc invocation'[m
+[7m Manual page wc(1) line 29/67 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page wc(1) line 30/67 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.32           February 2024                       WC(1)[m
+[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page wc(1) line 31/67 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 30/67 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              print the newline counts[m
+[38;1H[K[7m Manual page wc(1) line 29/67 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-l[0m, [1m--lines[0m[m
+[38;1H[K[7m Manual page wc(1) line 28/67 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 27/67 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              print the character counts[m
+[38;1H[K[7m Manual page wc(1) line 26/67 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-m[0m, [1m--chars[0m[m
+[38;1H[K[7m Manual page wc(1) line 25/67 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 24/67 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              print the byte counts[m
+[38;1H[K[7m Manual page wc(1) line 23/67 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-c[0m, [1m--bytes[0m[m
+[38;1H[K[7m Manual page wc(1) line 22/67 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 21/67 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ter, byte, maximum line length.[m
+[38;1H[K[7m Manual page wc(1) line 20/67 78% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       printed,  always in the following order: newline, word, charac‐[m
+[38;1H[K[7m Manual page wc(1) line 19/67 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The options below may  be  used  to  select  which  counts  are[m
+[38;1H[K[7m Manual page wc(1) line 18/67 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 17/67 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       With no FILE, or when FILE is -, read standard input.[m
+[38;1H[K[7m Manual page wc(1) line 16/67 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[38;1H[K[7m Manual page wc(1) line 15/67 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       space.[m
+[38;1H[K[7m Manual page wc(1) line 14/67 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       non-zero-length  sequence  of  characters  delimited  by  white[m
+[38;1H[K[7m Manual page wc(1) line 13/67 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       line if  more  than  one  FILE  is  specified.   A  word  is  a[m
+[38;1H[K[7m Manual page wc(1) line 12/67 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Print newline, word, and byte counts for each FILE, and a total[m
+[38;1H[K[7m Manual page wc(1) line 11/67 66% (press h for help or q to quit)[27m[K[K [KESCESC[Kqq[K[7m Manual page wc(1) line 11/67 66% (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ec[K[Kwc iacta [K[K[K[K[K[K[K[K[Kfind . -type d pi[K[K-print
+[?2004l.
+./dir.js
+./dir1
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m4-lastlines[0m   [01;32m8-cwd_state[0m  [01;32miacta[0m
+[01;32m10-no_more_js[0m      [01;32m5-firstlines[0m  [01;34mdir.js[0m       [01;32mls_cwd_content[0m
+[01;32m2-hellofile[0m        [01;32m6-third_line[0m  [01;34mdir1[0m         [01;32mscript[0m
+[01;32m3-twofiles[0m         [01;32m7-file[0m        [01;32mhello[0m        [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# s[Kls -la
+[?2004ltotal 1844
+drwxr-xr-x 4 root root    4096 Jun 12 14:49 [0m[01;34m.[0m
+drwxr-xr-x 6 root root    4096 Jun 12 09:45 [01;34m..[0m
+-rwxr-xr-x 1 root root      28 Jun 12 10:23 [01;32m1-confused_smiley[0m
+-rwxr-xr-x 1 root root      48 Jun 12 14:49 [01;32m10-no_more_js[0m
+-rwxr-xr-x 1 root root      28 Jun 12 10:27 [01;32m2-hellofile[0m
+-rwxr-xr-x 1 root root      39 Jun 12 10:48 [01;32m3-twofiles[0m
+-rwxr-xr-x 1 root root      35 Jun 12 10:50 [01;32m4-lastlines[0m
+-rwxr-xr-x 1 root root      35 Jun 12 10:51 [01;32m5-firstlines[0m
+-rwxr-xr-x 1 root root      39 Jun 12 11:00 [01;32m6-third_line[0m
+-rwxr-xr-x 1 root root      62 Jun 12 12:58 [01;32m7-file[0m
+-rwxr-xr-x 1 root root      36 Jun 12 13:05 [01;32m8-cwd_state[0m
+drwxr-xr-x 2 root root    4096 Jun 12 14:16 [01;34mdir.js[0m
+drwxr-xr-x 2 root root    4096 Jun 12 14:48 [01;34mdir1[0m
+-rwxr-xr-x 1 root root       0 Jun 12 14:17 [01;32mhello[0m
+-rwxr-xr-x 1 root root     746 Jun 12 10:53 [01;32miacta[0m
+-rwxr-xr-x 1 root root     699 Jun 12 13:04 [01;32mls_cwd_content[0m
+-rwxr-xr-x 1 root root     111 Jun 12 10:41 [01;32mscript[0m
+-rwxr-xr-x 1 root root 1818624 Jun 12 15:00 [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type d
+[?2004l.
+./dir.js
+./dir1
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# wc -l
+[?2004l^C
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# wc -l typescript 
+[?2004l30263 typescript
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m4-lastlines[0m   [01;32m8-cwd_state[0m  [01;32miacta[0m
+[01;32m10-no_more_js[0m      [01;32m5-firstlines[0m  [01;34mdir.js[0m       [01;32mls_cwd_content[0m
+[01;32m2-hellofile[0m        [01;32m6-third_line[0m  [01;34mdir1[0m         [01;32mscript[0m
+[01;32m3-twofiles[0m         [01;32m7-file[0m        [01;32mhello[0m        [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# wc -l 1
+1-confused_smiley  10-no_more_js      
+]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# wc -l 1[K[K[K[K[K[K[Klswc -l typescript [C[C[C[C[C[C[C[C[C[C[Kfind . -type d |[K
+[?2004l.
+./dir.js
+./dir1
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type d  |[K[K| wc -l
+[?2004l3
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim [7m11-directories[27m[C[C[C[C[C[C[C[C[C11-directories
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"11-directories" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                       [3;1H~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H0,0-1[9CAll[1;1H[?25h[?12$p[?25l[38;1H[1m-- INSERT --[m[38;13H[K[38;55H0,1[11CAll[1;1H[?25h[?25l#[38;55H1,2[1;
