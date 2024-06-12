@@ -1,0 +1,1607 @@
+Script started on 2024-06-12 11:00:48-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="72" LINES="38"]
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# bash script 
+[?2004ltype commit message : 
+"demostrqndo    ando la tercera linea del texto."
+[main 3de0350] message
+ 3 files changed, 14 insertions(+)
+ create mode 100755 io_redirections_and_filters/6-third_line
+ create mode 100755 io_redirections_and_filters/iacta
+ create mode 100755 io_redirections_and_filters/typescript
+Enumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Delta compression using up to 20 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 927 bytes | 927.00 KiB/s, done.
+Total 6 (delta 2), reused 1 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:cvalverde96/holbertonschool-shell.git
+   e09833f..3de0350  main -> main
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim3[K[K[K[Kcat 3-twofiles 
+[?2004l#!/bin/bash
+cat /etc/passwd /etc/hosts
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# at[K[Kcat 4-lastlines 
+[?2004l#!/bin/bash
+tail -n 10 /etc/passwd
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim 5-firstlines 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"5-firstlines" 2L, 35B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+head [35m-n[m [31m10[m /etc/passwd[2;23H[K[3;1H[94m~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H1,1[11CAll[1;1H[?25h[?12$p[?25l[38;1H[K[38;1H:[?25hq[?25l[?2004l[>4;m[23;2t[23;1t[38;1H[K[38;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# cat 5-firstlines 
+[?2004l#!/bin/bash
+head -n 10 /etc/passwd
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# cat 6-third_line 
+[?2004l#!/bin/bash
+head -n 3 iacta | tail -1 
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# head -3 iacta
+[?2004lAlea iacta est
+
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# head -n 3
+[?2004l^C
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# head -n 3 a[Kiacta 
+[?2004lAlea iacta est
+
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ;[K[H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# tail[K[K[K[Khead -n 3 iacta |t[K tail-2[K[K -2
+[?2004l
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# head -n 3 iacta | tail -2[K[K[K[K[K[K[K[K[K
+[?2004lAlea iacta est
+
+Alea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# head -n 3 iacta [C[1P[1@5[C[C[C[C[C[C[C | [C t a i l [C - 3 
+[?2004lAlea iacta est ("The die is cast") is a Latin phrase attributed by Suetonius
+(as iacta alea est) to Julius Caesar on January 10, 49 BC
+as he led his army across the Rubicon river in Northern Italy. With this step,
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir [7m\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)[27m[C[C[C[C[C[C[C[C[C[C[C\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+[?2004lbash: syntax error near unexpected token `)'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m0-hello_world[0m      [01;32m3-twofiles[0m    [01;32m6-third_line[0m  [01;32mscript[0m
+[01;32m1-confused_smiley[0m  [01;32m4-lastlines[0m   [01;32mREADME.md[0m     [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m5-firstlines[0m  [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir [7m\*\\[27m\*\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m'*\'[0m                 [01;32m2-hellofile[0m   [01;32m5-firstlines[0m   [01;32miacta[0m
+ [01;32m0-hello_world[0m       [01;32m3-twofiles[0m    [01;32m6-third_line[0m   [01;32mscript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;32mREADME.md[0m      [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir /[7m\*\\[27m\*\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m'*\'[0m                 [01;32m2-hellofile[0m   [01;32m5-firstlines[0m   [01;32miacta[0m
+ [01;32m0-hello_world[0m       [01;32m3-twofiles[0m    [01;32m6-third_line[0m   [01;32mscript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;32mREADME.md[0m      [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \[7m\*\\[27m\*\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m'*\'[0m                 [01;32m2-hellofile[0m   [01;32m5-firstlines[0m  [01;34m'\*\'[0m     [01;32mtypescript[0m
+ [01;32m0-hello_world[0m       [01;32m3-twofiles[0m    [01;32m6-third_line[0m   [01;32miacta[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;32mREADME.md[0m      [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm -r *\*\\/
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m0-hello_world[0m       [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32miacta[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m    [01;32mREADME.md[0m      [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m  [01;34m'\*\'[0m           [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsrm -r \*\\/[C[C[C[C[Cls[Kmkdir \\*\\'"Best School"\'
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m0-hello_world[0m       [01;32m4-lastlines[0m   [01;34m'\*\'[0m                 [01;32mtypescript[0m
+ [01;32m1-confused_smiley[0m   [01;32m5-firstlines[0m  [01;34m'\*\"Best School"\'[0m
+ [01;32m2-hellofile[0m         [01;32m6-third_line[0m   [01;32miacta[0m
+ [01;32m3-twofiles[0m          [01;32mREADME.md[0m      [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\'"Best School"\'[7m\\*$\?[27m\\*$\?
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m0-hello_world[0m       [01;32m4-lastlines[0m   [01;34m'\*\'[0m                     [01;32mscript[0m
+ [01;32m1-confused_smiley[0m   [01;32m5-firstlines[0m  [01;34m'\*\"Best School"\'[0m       [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m6-third_line[0m  [01;34m'\*\"Best School"\\*$?'[0m
+ [01;32m3-twofiles[0m          [01;32mREADME.md[0m      [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\'"Best School"\'\\*$\?[1@\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m0-hello_world[0m       [01;32m5-firstlines[0m        [01;34m'\*\"Best School"\\*$?'[0m
+ [01;32m1-confused_smiley[0m   [01;32m6-third_line[0m        [01;34m'\*\'\''Best School'\''\*$?'[0m
+ [01;32m2-hellofile[0m         [01;32mREADME.md[0m            [01;32miacta[0m
+ [01;32m3-twofiles[0m         [01;34m'\*\'[0m                 [01;32mscript[0m
+ [01;32m4-lastlines[0m        [01;34m'\*\"Best School"\'[0m   [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm \\
+[?2004lrm: cannot remove '\': No such file or directory
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm -r \\\*\\
+\*\/                   \*\"Best School"\\*$?/ 
+\*\"Best School"\/     \*\'Best School'\*$?/  
+]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm -r \\\*\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m0-hello_world[0m       [01;32mREADME.md[0m
+ [01;32m1-confused_smiley[0m  [01;34m'\*\"Best School"\'[0m
+ [01;32m2-hellofile[0m        [01;34m'\*\"Best School"\\*$?'[0m
+ [01;32m3-twofiles[0m         [01;34m'\*\'\''Best School'\''\*$?'[0m
+ [01;32m4-lastlines[0m         [01;32miacta[0m
+ [01;32m5-firstlines[0m        [01;32mscript[0m
+ [01;32m6-third_line[0m        [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsrm -r \\\*\\\\[K[3Plsmkdir \\*\\\'"Best School"\'\\*$\?[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm -r d 
+[?2004lrm: cannot remove 'd': No such file or directory
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm -r \\\*\\
+\*\"Best School"\/     \*\"Best School"\\*$?/ \*\'Best School'\*$?/
+]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm -r \\\*\\
+[?2004lrm: cannot remove '\*\': No such file or directory
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m0-hello_world[0m       [01;32mREADME.md[0m
+ [01;32m1-confused_smiley[0m  [01;34m'\*\"Best School"\'[0m
+ [01;32m2-hellofile[0m        [01;34m'\*\"Best School"\\*$?'[0m
+ [01;32m3-twofiles[0m         [01;34m'\*\'\''Best School'\''\*$?'[0m
+ [01;32m4-lastlines[0m         [01;32miacta[0m
+ [01;32m5-firstlines[0m        [01;32mscript[0m
+ [01;32m6-third_line[0m        [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm -r \\
+[?2004lrm: cannot remove '\': No such file or directory
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm -r [7m\*\"Best School"\[27m[C[C[C[C[C[C[C[C[C[C[C\*\"Best School"\
+[?2004l[?2004h> 
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m0-hello_world[0m       [01;32mREADME.md[0m
+ [01;32m1-confused_smiley[0m  [01;34m'\*\"Best School"\'[0m
+ [01;32m2-hellofile[0m        [01;34m'\*\"Best School"\\*$?'[0m
+ [01;32m3-twofiles[0m         [01;34m'\*\'\''Best School'\''\*$?'[0m
+ [01;32m4-lastlines[0m         [01;32miacta[0m
+ [01;32m5-firstlines[0m        [01;32mscript[0m
+ [01;32m6-third_line[0m        [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm -r [7m\*\"Best School"\[27m[C[C[C[C[C[C[C[C[C[C[C\*\"Best School"\
+[?2004l[?2004h> 
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m0-hello_world[0m       [01;32mREADME.md[0m
+ [01;32m1-confused_smiley[0m  [01;34m'\*\"Best School"\'[0m
+ [01;32m2-hellofile[0m        [01;34m'\*\"Best School"\\*$?'[0m
+ [01;32m3-twofiles[0m         [01;34m'\*\'\''Best School'\''\*$?'[0m
+ [01;32m4-lastlines[0m         [01;32miacta[0m
+ [01;32m5-firstlines[0m        [01;32mscript[0m
+ [01;32m6-third_line[0m        [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm -r \\\*\\
+[?2004lrm: cannot remove '\*\': No such file or directory
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm -r \\\*\\[K[K[K[K[K[K[K[K[K[K[K[Kls -l
+[?2004ltotal 76
+-rwxr-xr-x 1 root root    32 Jun 12 10:08  [0m[01;32m0-hello_world[0m
+-rwxr-xr-x 1 root root    28 Jun 12 10:23  [01;32m1-confused_smiley[0m
+-rwxr-xr-x 1 root root    28 Jun 12 10:27  [01;32m2-hellofile[0m
+-rwxr-xr-x 1 root root    39 Jun 12 10:48  [01;32m3-twofiles[0m
+-rwxr-xr-x 1 root root    35 Jun 12 10:50  [01;32m4-lastlines[0m
+-rwxr-xr-x 1 root root    35 Jun 12 10:51  [01;32m5-firstlines[0m
+-rwxr-xr-x 1 root root    39 Jun 12 11:00  [01;32m6-third_line[0m
+-rwxr-xr-x 1 root root    36 Jun 12 10:14  [01;32mREADME.md[0m
+drwxr-xr-x 2 root root  4096 Jun 12 11:07 [01;34m'\*\"Best School"\'[0m
+drwxr-xr-x 2 root root  4096 Jun 12 11:08 [01;34m'\*\"Best School"\\*$?'[0m
+drwxr-xr-x 2 root root  4096 Jun 12 11:08 [01;34m'\*\'\''Best School'\''\*$?'[0m
+-rwxr-xr-x 1 root root   746 Jun 12 10:53  [01;32miacta[0m
+-rwxr-xr-x 1 root root   111 Jun 12 10:41  [01;32mscript[0m
+-rwxr-xr-x 1 root root 20480 Jun 12 11:10  [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm -r d*
+[?2004lrm: cannot remove 'd*': No such file or directory
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm -r *d
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m  [01;34m'\*\"Best School"\'[0m
+ [01;32m2-hellofile[0m        [01;34m'\*\"Best School"\\*$?'[0m
+ [01;32m3-twofiles[0m         [01;34m'\*\'\''Best School'\''\*$?'[0m
+ [01;32m4-lastlines[0m         [01;32miacta[0m
+ [01;32m5-firstlines[0m        [01;32mscript[0m
+ [01;32m6-third_line[0m        [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# undo
+[?2004lCommand 'undo' not found, did you mean:
+  command 'udo' from deb udo (6.4.1-6)
+Try: apt install <deb name>
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# history
+[?2004l    1  pwd
+    2  pwdls
+    3  ls
+    4  pwd
+    5  cd
+    6  pwd
+    7  ls
+    8  file snap
+    9  cd snap
+   10  ls
+   11  ls -la
+   12  ls
+   13  pwd
+   14  ls
+   15  ssh -p 11503 root@ssh.cod-us-east-1.hbtn.io
+   16  
+   17  ssh -p 11503 root@ssh.cod-us-east-1.hbtn.io
+   18  ls
+   19  ssh root@
+   20  which paste
+   21  cat /usr/bin/paste
+   22  ls
+   23  ssh root@10.10.225.239
+   24  ssh thm@10.10.225.239
+   25  sudo apt update && sudo apt upgrade
+   26  ls
+   27  cd Holberton
+   28  ls
+   29  cd Documents/
+   30  ls
+   31  cd
+   32  pwd
+   33  cd /
+   34  ls
+   35  pwd
+   36  cd /root
+   37  pwd
+   38  ls
+   39  cd snap
+   40  ls
+   41  cd
+   42  ls
+   43  pwd
+   44  ls -la
+   45  cd /root/desktop
+   46  ls
+   47  cd 
+   48  cd/
+   49  cd /
+   50  ls
+   51  cd /home
+   52  ls
+   53  ls pla
+   54  ls -la
+   55  cd
+   56  ls
+   57  ls -la
+   58  cd .profile
+   59  cd .ssh
+   60  ls
+   61  ls -la
+   62  exti
+   63  exit
+   64  pwd
+   65  ls
+   66  pwd
+   67  cd
+   68  l
+   69  ls
+   70  cd .mnt
+   71  cd /mnt
+   72  ls
+   73  pwd
+   74  cd c
+   75  ls
+   76  cd Users
+   77  ls
+   78  cd cvalv
+   79  ls
+   80  cd Desktop
+   81  ls
+   82  cd OneDrive/
+   83  ls
+   84  cd Documents
+   85  ls
+   86  cd ..
+   87  ls
+   88  cd cval
+   89  cd cvalv/
+   90  ls
+   91  cd OneDrive/
+   92  ls
+   93  less Document
+   94  less Document.docx 
+   95  touch example.txt
+   96  ls
+   97  echo "hello" example.txt 
+   98  echo "hello" >> example.txt 
+   99  less example.txt 
+  100  cd ..
+  101  ls
+  102  cd ..
+  103  ls
+  104  cd ..
+  105  ls
+  106  cd ..
+  107  ls
+  108  cd ..
+  109  ls
+  110  cd bin
+  111  ls
+  112  cat cat
+  113  cd .
+  114  ls
+  115  type cat
+  116  type type
+  117  type grep
+  118  type mkdir
+  119  type echo
+  120  tpye mv
+  121  type mv
+  122  which ls
+  123  which type
+  124  which which
+  125  which mkdir
+  126  which ls
+  127  which cp
+  128  man which
+  129  man program
+  130  man cat
+  131  exit
+  132  version
+  133  --version
+  134  man version
+  135  exit
+  136  ls
+  137  cd OneDrive/
+  138  ls
+  139  cat example.txt 
+  140  history
+  141  type cat
+  142  ls
+  143  neovim example.txt 
+  144  neovi example.txt 
+  145  vim example.txt 
+  146  vi example.txt 
+  147  vim example.txt 
+  148  nvim example.txt 
+  149  wsl
+  150  sudo apt update && sudo apt upgrade
+  151  apt list --upgradable 
+  152  tree /
+  153  sudo apt install tree
+  154  tree /
+  155  tree -L 1 /
+  156  tree -L 2 /
+  157  tree -L 1 /
+  158  whoami
+  159  ls
+  160  cd ..
+  161  ls
+  162  cd ..
+  163  ls
+  164  cd ..
+  165  ls
+  166  cd .. 
+  167  ls
+  168  cd .. ls
+  169  exi
+  170  exit
+  171  ls
+  172  file My Documents
+  173  file 'My Documents'
+  174  cd /Documents
+  175  cd Documents
+  176  ls
+  177  cd //
+  178  ls
+  179  pwd
+  180  ls
+  181  cd home
+  182  ls
+  183  cd ..
+  184  cd snap
+  185  ls
+  186  cd ..
+  187  ls usr
+  188  cd ..
+  189  cd /root
+  190  ls
+  191  exit
+  192  cd /mnt/c/Users/cvalv/OneDrive/Desktop/Holberton
+  193  ls
+  194  cd holbertonschool-shell/
+  195  ls
+  196  ssh -T git@github.com
+  197  less /etc/passwd
+  198  ls -la
+  199  vim 0-iam_betty
+  200  ls
+  201  mkdir permissions
+  202  ls
+  203  mv 0-iam_betty permissions/
+  204  ls
+  205  cd permissions/
+  206  ls
+  207  git add .
+  208  git update-index --chmod=+x 0-iam_betty
+  209  git commit -m "cambiando a user berry." 
+  210  git push
+  211  ls
+  212  vim README.md
+  213  ls
+  214  cat README.md 
+  215  git add .
+  216  git update-index --chmod=+x 0-iam_betty
+  217  git commit -m "cambiando a user berry." 
+  218  git push
+  219  ls
+  220  cd ..
+  221  ls
+  222  cd permissions/
+  223  ls
+  224  cat README.md 
+  225  cat 0-iam_betty 
+  226  ls
+  227  vim 1-who_am_i
+  228  ls
+  229  cat 1-who_am_i 
+  230  git add .
+  231  git update-index --chmod=+x 1-who_am_i
+  232  git commit -m "Script que corre whoami."
+  233  git push
+  234  groups
+  235  whoami
+  236  vim 2-groups
+  237  ls
+  238  git add .
+  239  git update-index --chmod=+x 2-groups
+  240  git commit -m "script que printea los grupos del usuario actual"
+  241  git push
+  242  ls
+  243  touch hello
+  244  ls
+  245  man chown
+  246  vim 3-new_owner
+  247  git add .
+  248  git update-index --chmod=+x 3-new_owner
+  249  git commit -m "poniendo user owner betty a hello"
+  250  git push
+  251  ls -l
+  252  man chown
+  253  vim 3-new_owner 
+  254  git add .
+  255  git update-index --chmod=+x 3-new_owner
+  256  git commit -m "poniendo user owner betty a hello"
+  257  git push
+  258  vim 3-new_owner 
+  259  git push
+  260  git add .
+  261  git push
+  262  git update-index --chmod=+x 3-new_owner
+  263  git push
+  264  cat 3-new_owner 
+  265  git add .
+  266  git update-index --chmod=+x 3-new_owner
+  267  git commit -m "poniendo user owner betty a hello"
+  268  git push
+  269  ls -l
+  270  cd /tmp
+  271  ls
+  272  cd -
+  273  ls
+  274  bash 3-new_owner 
+  275  whoami
+  276  bash 3-new_owner 
+  277  bash 0-iam_betty 
+  278  man adduser
+  279  adduser betty
+  280  bash 3-new_owner 
+  281  ls -la
+  282  whoami
+  283  bash 0-iam_betty 
+  284  man chown
+  285  whoami
+  286  cd /mnt/c/Users/cvalv/OneDrive/Desktop/Holberton/holbertonschool
+  287  ls
+  288  cd/mnt/c/Users/cvalv/OneDrive/Desktop/Holberton/holbertonschool
+  289  ls
+  290  cd /mnt/c/Users/cvalv/OneDrive/Desktop/Holberton/holbertonschool
+  291  ls
+  292  cd OneDrive/
+  293  ls
+  294  cd D
+  295  cd Desktop/
+  296  ls
+  297  cd Holberton/
+  298  ls
+  299  holbertonschool-shell/
+  300  cd holbertonschool-shell/
+  301  ls
+  302  cd permissions/
+  303  ls
+  304  ls -la
+  305  bash 3-new_owner 
+  306  ls
+  307  ls -la
+  308  vim 3-new_owner 
+  309  ls
+  310  ls -la
+  311  touch .vimrc
+  312  ls -la
+  313  chmod 021 .vimrc
+  314  ls -la
+  315  cd /mnt/c/Users/cvalv/OneDrive/Desktop/Holberton/holbertonschool
+  316  cd /mnt/c/Users/cvalv/OneDrive/Desktop/Holberton/holbertonschool/
+  317  cd /mnt/c/Users/cvalv/OneDrive/Desktop/Holberton
+  318  ls
+  319  cd holbertonschool-shell/
+  320  ls
+  321  cd permissions/
+  322  ls -la
+  323  bash 3-new_owner 
+  324  ls -la
+  325  vim 3-new_owner 
+  326  bash 3-new_owner 
+  327  ls -la
+  328  chown betty hello
+  329  ls -la
+  330  sudo chown betty hello
+  331  ls -la
+  332  vim 3-new_owner 
+  333  bash 3-new_owner 
+  334  ls -la
+  335  su betty
+  336  ls
+  337  ls -la
+  338  id betty
+  339  vim 3-new_owner 
+  340  bash 3-new_owner 
+  341  ls -la
+  342  vim 3-new_owner 
+  343  bash 3-new_owner 
+  344  ls -la
+  345  ls -l hello 
+  346  ls -la hello 
+  347  stat hello 
+  348  stat -c '%U' hello 
+  349  vim 3-new_owner 
+  350  ls
+  351  sudo bash 3-new_owner 
+  352  ls -la
+  353  vim 3-new_owner 
+  354  bash 3-new_owner 
+  355  sudo ./3-new_owner 
+  356  ls -la
+  357  ls
+  358  ls -l
+  359  vim 3-new_owner 
+  360  chmod +x 3-new_owner 
+  361  ls
+  362  sudo ./3-new_owner 
+  363  ls-l
+  364  ls -l
+  365  ls
+  366  id betty 
+  367  bash 3-new_owner 
+  368  ls -la
+  369  ls -l hello 
+  370  vim 3-new_owner 
+  371  ls -l
+  372  vim 3-new_owner 
+  373  id betty
+  374  bash 3-new_owner 
+  375  ls -la
+  376  vim 4-empty
+  377  git add .
+  378  git vim 3-new_owner
+  379  vim 3-new_owner 
+  380  vi 3-new_owner 
+  381  bash 3-new_owner 
+  382  ls -la
+  383  sync
+  384  ls -la
+  385  bash 3-new_owner 
+  386  sync
+  387  ls -la
+  388  chmod +x 3-new_owner
+  389  ls -la
+  390  bash 3-new_owner 
+  391  ls
+  392  ls -la
+  393  ls 
+  394  cat 4-empty 
+  395  git add .
+  396  git update-index --chmod=+x 4-empty
+  397  git commit -m "crear un file vacio llamado hello."
+  398  ls
+  399  rm hello 
+  400  ls
+  401  git push
+  402  bash 4-empty 
+  403  ls
+  404  ls -la
+  405  cat 4-empty 
+  406  vim 4-empty 
+  407  cat 4-empty 
+  408  git add .
+  409  git commit -m "crear un file vacio llamado hello."
+  410  git push
+  411  ls
+  412  vim 5-execute
+  413  ls -la
+  414  chmod 000 5-execute 
+  415  ls -la
+  416  chmod 700 5-execute 
+  417  ls -la
+  418  chmod 021 5-execute 
+  419  ls -la
+  420  chmod 021 -v 5-execute 
+  421  ls -la
+  422  man chmod
+  423  ls
+  424  ls  
+  425  exit
+  426  ls
+  427  cd Holberton/
+  428  ls
+  429  cd holbertonschool-shell/
+  430  ls
+  431  cd permissions/
+  432  ls
+  433  id betty 
+  434  ls -l hello
+  435  addgroup school
+  436  vim 13-change_group
+  437  ls
+  438  chmod +x 13-change_group 
+  439  ls
+  440  ls -l hello 
+  441  bash 13-change_group 
+  442  ls -l hello 
+  443  git add 13-change_group 
+  444  git commit -m "adding school group." 
+  445  git push
+  446  man chgroup
+  447  man chgrp
+  448  man chwon
+  449  man chown
+  450  ls
+  451  ls -l
+  452  vim 14-change_owner_and_group
+  453  ls
+  454  ls -l
+  455  chmmod +x 14-change_owner_and_group 
+  456  chmod +x 14-change_owner_and_group 
+  457  ls
+  458  bash 14-change_owner_and_group 
+  459  add user vincent
+  460  adduser vincent
+  461  addgroup staff
+  462  ls
+  463  ls -l
+  464  bash 14-change_owner_and_group 
+  465  vim 14-change_owner_and_group 
+  466  ls -l
+  467  bash 14-change_owner_and_group 
+  468  ls -l
+  469  git add 14-change_owner_and_group 
+  470  git update-index --chmod=+x 14-change_owner_and_group
+  471  git commit -m "anadiendo vincent and staff."
+  472  git push
+  473  bash 14-change_owner_and_group 
+  474  ls -l
+  475  vim 15-symbolic_link_permissions
+  476  ls
+  477  chmod +x 15-symbolic_link_permissions 
+  478  bash 15-symbolic_link_permissions 
+  479  ls -l
+  480  git add 15-symbolic_link_permissions 
+  481  git commit -m "Anadiendo symbolic link." 
+  482  git push
+  483  ls
+  484  vim 16-if_only
+  485  ls
+  486  chmod +x 16-if_only 
+  487  vim 14-change_owner_and_group 
+  488  vim 15-symbolic_link_permissions 
+  489  ls
+  490  vim 14-change_owner_and_group 
+  491  ls
+  492  vim 16-if_only 
+  493  ls
+  494  bash 16-if_only 
+  495  ls
+  496  ls
+  497  mkdir Holberton
+  498  ls
+  499  cd Holberton/
+  500  ls
+  501  git clone git@github.com:cvalverde96/holbertonschool-shell.git
+  502  ls
+  503  cd holbertonschool-shell/
+  504  ls
+  505  cd permissions/
+  506  ls
+  507  ls -la
+  508  cat 3-new_owner 
+  509  bash 3-new_owner 
+  510  ls -la
+  511  git add .
+  512  git push 
+  513  ls -la
+  514  ls
+  515  ls -la
+  516  vim 5-execute
+  517  ls
+  518  file 5-execute 
+  519  file 3-new_owner 
+  520  git add .
+  521  git commit -m "script que pone execute permissions para dueño de hello"
+  522  git push
+  523  ls -la
+  524  bash 5-execute 
+  525  ls -la
+  526  chmod 764 5-execute 
+  527  ls -la
+  528  git add.
+  529  git add .
+  530  git push
+  531  git commit -m "script que da exccute." 
+  532  git push
+  533  ls -la
+  534  cat hello
+  535  ls
+  536  vim 5-execute 
+  537  bash 5-execute 
+  538  ls -la
+  539  vim 5-execute 
+  540  ls
+  541  git add 5-execute 
+  542  git commit -m "excecute script"
+  543  git push
+  544  vim 6-multiple_permissions
+  545  bash 6-multiple_permissions 
+  546  ls -l
+  547  git add 6-multiple_permissions 
+  548  git commit -m "script para anadir permisos." 
+  549  git push
+  550  git add 6-multiple_permissions 
+  551  git update-index --chmod=+x 6-multiple_permissions
+  552  git commit -m "script para anadir permisos." 
+  553  git push
+  554  ls -la
+  555  ls -l hello
+  556  vim 6-multiple_permissions 
+  557  git add 6-multiple_permissions 
+  558  git commit -m "script para anadir permisos." 
+  559  git push
+  560  git add 6-multiple_permissions 
+  561  git update-index --chmod=+x 6-multiple_permissions
+  562  git commit -m "script para anadir permisos." 
+  563  git push
+  564  ls
+  565  vim 7-everybody
+  566  ls
+  567  ls -l hello 
+  568  vim 7-everybody 
+  569  bash 7-everybody 
+  570  vim 7-everybody 
+  571  bash 7-everybody 
+  572  ls -la
+  573  ls -l hello 
+  574  git add 7-everybody 
+  575  git update-index --chmod=+x 7-everybody
+  576  git commit -m "Anadiendo execute a todos." 
+  577  git push
+  578  vim 7-everybody 
+  579  git add 7-everybody 
+  580  git update-index --chmod=+x 7-everybody
+  581  git commit -m "Anadiendo execute a todos." 
+  582  git push
+  583  ls -l hello
+  584  cat 7-everybody 
+  585  vim 7-everybody 
+  586  git add 7-everybody 
+  587  git update-index --chmod=+x 7-everybody
+  588  git commit -m "Anadiendo execute a todos." 
+  589  git push
+  590  bash 7-everybody 
+  591  ls -l hello 
+  592  ls -la
+  593  ls -l hello 
+  594  vim 7-everybody 
+  595  ls
+  596  git add 7-everybody 
+  597  git update-index --chmod=+x 7-everybody
+  598  git commit -m "Anadiendo execute a todos." 
+  599  git push
+  600  bash 7-everybody 
+  601  ls -l home
+  602  ls -l hello
+  603  vim 7-everybody 
+  604  bash 6-multiple_permissions bash 7-everybody 
+  605  ls -l home
+  606  ls -l hello
+  607  bash 7-everybody 
+  608  cat 7-everybody 
+  609  ls -l hello
+  610  git add 7-everybody 
+  611  git update-index --chmod=+x 7-everybody
+  612  git commit -m "Anadiendo execute a todos." 
+  613  git push
+  614  ls -l hello
+  615  vim 7-everybody 
+  616  bash 7-everybody 
+  617  ls -l hello 
+  618  git add 7-everybody 
+  619  git update-index --chmod=+x 7-everybody
+  620  git commit 
+  621  git commit -m "Anadiendo execute a todos." 
+  622  git push
+  623  ls
+  624  vim 7-everybody 
+  625  bash 7-everybody 
+  626  ls -l hello
+  627  git add 7-everybody 
+  628  git update-index --chmod=+x 7-everybody
+  629  git commit -m "Anadiendo execute a todos." 
+  630  git push
+  631  vim 7-everybody 
+  632  nash 7-everybody 
+  633  bash 7-everybody 
+  634  ls -la
+  635  l -lhome
+  636  vim 7-everybody 
+  637  ls -l home
+  638  ls -l hello
+  639  vim 7-everybody 
+  640  git add 7-everybody 
+  641  git commit -m "scrip con permisos." 
+  642  git push
+  643  bash 7-everybody 
+  644  ls -l hello
+  645  ls
+  646  chmod +x 7-everybody 
+  647  ls
+  648  chmod +x 6-multiple_permissions 
+  649  git add .
+  650  ls
+  651  git commit -m "haciendo ejecutables los files."
+  652  git push
+  653  ls -l home
+  654  ls -l hello
+  655  vim 7-everybody 
+  656  bash 7-everybody 
+  657  ls -l ho
+  658  ls -l hello
+  659  git add 7-everybody 
+  660  git commit -m "cambiando comando de permisos." 
+  661  git push
+  662  vim 7-everybody 
+  663  ls
+  664  ls -l hello
+  665  ls -l hello 
+  666  vim 8-James_Bond
+  667  git add 8-James_Bond 
+  668  chmod +x 8-James_Bond 
+  669  ls 
+  670  git commit -m "setiando user y group sin permisos y other con todo permiso."
+  671  git push
+  672  bash 8-James_Bond 
+  673  ls -l hello 
+  674  ls
+  675  git add 8-James_Bond 
+  676  git update-index --chmod=+x
+  677  git update-index --chmod=+x 8-James_Bond
+  678  git commit -m "setiando user y group sin permisos y other con todo permiso."
+  679  git push
+  680  ls
+  681  ls -l 8-James_Bond 
+  682  ls -l home
+  683  ls -l hello
+  684  chmod chmod u=rwx,g=rx,o=wx hello
+  685  chmod u=rwx,g=rx,o=wx hello
+  686  ls -l home
+  687  ls -l hello
+  688  bash 8-James_Bond 
+  689  ls -l hello
+  690  chmod u+rwx,o+rx,o-r hello
+  691  ls -l hello
+  692  bash 8-James_Bond 
+  693  ls -l hello
+  694  chmod u+rwx,g+rx,o-r hello
+  695  ls -l hello
+  696  vim 9-John_Doe
+  697  git add 9-John_Doe 
+  698  git update-index --chmod=+x 8-James_Bond
+  699  git update-index --chmod=+x 9-John_Doe
+  700  git commit -r "Anade rwx a user, rx a group y wx a other."
+  701  git commit -m "Anade rwx a user, rx a group y wx a other."
+  702  git push
+  703  bash 9-John_Doe 
+  704  ls
+  705  ls -l hello
+  706  touch olleh
+  707  ls
+  708  vim 10-mirror_permissions
+  709  ls -l
+  710  bash 9-John_Doe 
+  711  ls -l
+  712  history
+  713  ls
+  714  git update-index --chmod=+x 10-mirror_permissions
+  715  vim 10-mirror_permissions 
+  716  git add 10-mirror_permissions 
+  717  git update-index --chmod=+x 10-mirror_permissions
+  718  ls -l
+  719  sync
+  720  ls 
+  721  chmod +x 10-mirror_permissions 
+  722  ls -l
+  723  chmod +x 9-John_Doe 
+  724  ls
+  725  vim 10-mirror_permissions 
+  726  bash 10-mirror_permissions 
+  727  ls -l
+  728  git add 10-mirror_permissions 
+  729  git commit -m "replicando permisos."
+  730  git push
+  731  ls -l
+  732  mkdir dir0 dir1 dir2
+  733  ls
+  734  vim 11-directories_permissions
+  735  ls -l
+  736  chmod ugo-xdir0 dir1 dir 2
+  737  chmod ugo-x dir0 dir1 dir2
+  738  ls -l
+  739  git update-index --chmod=+x 11-directories_permissions
+  740  git add 11-directories_permissions 
+  741  git update-index --chmod=+x 11-directories_permissions
+  742  ls -l
+  743  chmod +x 11-directories_permissions 
+  744  ls 
+  745  ls -l
+  746  bash 11-directories_permissions 
+  747  ls -l
+  748  git commit -m "anadiendo x a dir."
+  749  git push
+  750  ls
+  751  vim 12-directory_permissions
+  752  bash 12-directory_permissions 
+  753  ls -l
+  754  vim 12-directory_permissions 
+  755  git add 12-directory_permissions 
+  756  ls
+  757  chmod +x 12-directory_permissions 
+  758  ls
+  759  git update-index --chmod=+x 12-directory_permissions
+  760  git commit -m "crea un dir llamado my_dir y le ponepermiso 751."
+  761  git push
+  762  bash 12-directory_permissions 
+  763  ls -l
+  764  vim 12-directory_permissions 
+  765  git add 12-directory_permissions 
+  766  ls
+  767  git commit -m "crea un dir llamado my_dir y le ponepermiso 751."
+  768  git push
+  769  ls
+  770  rm -r 751 chmod my_dir
+  771  ls
+  772  bash 12-directory_permissions 
+  773  ls -l
+  774  vim 12-directory_permissions 
+  775  bash 12-directory_permissions 
+  776  rm my_dir/
+  777  rm -r my_dir/
+  778  bash 12-directory_permissions 
+  779  ls
+  780  rm -r drwxr-x--x/
+  781  rm -r my_dir/
+  782  ls
+  783  chmod 751 my_dir
+  784  man chmod
+  785  chmod 751 -R my_dir
+  786  chmod 751 mkdir my_dir
+  787  chmod 751, mkdir mydir
+  788  mkdir -m 751 my_dir
+  789  ls -l
+  790  ls 
+  791  rm -r my_dir
+  792  ls
+  793  vim 12-directory_permissions 
+  794  ls
+  795  bash 12-directory_permissions 
+  796  ls
+  797  git add 12-directory_permissions 
+  798  git commit -m "crea my_dir."
+  799  git push
+  800  man mkdir
+  801  ssh -p 18205 root@ssh.cod-us-east-1.hbtn.io
+  802  ls
+  803  cd Holberton/
+  804  ls
+  805  cd holbertonschool-shell/
+  806  ls
+  807  cd permissions/
+  808  ls
+  809  vim 16-if_only 
+  810  ls
+  811  cd Holberton/
+  812  cd holbertonschool-shell/
+  813  ls
+  814  cd permissions/
+  815  ls
+  816  git add .
+  817  git commit -m "push grande."
+  818  git push
+  819  ls
+  820  vim 16-if_only 
+  821  ls
+  822  git add 16-if_only 
+  823  git commit -m "push"
+  824  git push
+  825  bash 16-if_only 
+  826  useradd guillaume
+  827  bash 16-if_only 
+  828  ls -l
+  829  id guillaume 
+  830  id vincent 
+  831  bash16
+  832  bash 16-if_only 
+  833  ls -l
+  834  chown guillaume hello
+  835  ls
+  836  ls -l hello 
+  837  bash 16-if_only 
+  838  ls -l
+  839  ssh -p 12494 root@ssh.cod-us-east-1.hbtn.io
+  840  bash script 
+  841  cat 3-twofiles 
+  842  cat 4-lastlines 
+  843  vim 5-firstlines 
+  844  cat 5-firstlines 
+  845  cat 6-third_line 
+  846  head -3 iacta
+  847  head -n 3
+  848  head -n 3 iacta 
+  849  head -n 3 iacta | tail -2
+  850  head -n 3 iacta 
+  851  head -n 5 iacta | tail -3 
+  852  mkdir \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+  853  ls
+  854  mkdir \*\\
+  855  ls
+  856  mkdir /\*\\
+  857  ls
+  858  mkdir \\*\\
+  859  ls
+  860  rm -r \*\\/
+  861  ls
+  862  mkdir \\*\\'"Best School"\'
+  863  ls
+  864  mkdir \\*\\'"Best School"\'\\*$\?
+  865  ls
+  866  mkdir \\*\\\'"Best School"\'\\*$\?
+  867  ls
+  868  rm \\
+  869  rm -r \\\*\\
+  870  ls
+  871  rm -r d 
+  872  rm -r \\\*\\
+  873  ls
+  874  rm -r \\
+  875  rm -r \*\"Best School"\
+
+  876  ls
+  877  rm -r \*\"Best School"\
+
+  878  ls
+  879  rm -r \\\*\\
+  880  ls -l
+  881  rm -r d*
+  882  rm -r *d
+  883  ls
+  884  undo
+  885  history
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m  [01;34m'\*\"Best School"\'[0m
+ [01;32m2-hellofile[0m        [01;34m'\*\"Best School"\\*$?'[0m
+ [01;32m3-twofiles[0m         [01;34m'\*\'\''Best School'\''\*$?'[0m
+ [01;32m4-lastlines[0m         [01;32miacta[0m
+ [01;32m5-firstlines[0m        [01;32mscript[0m
+ [01;32m6-third_line[0m        [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# cd ..
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shellroot@Gyarados:~/Holberton/holbertonschool-shell# ls
+[?2004lREADME.md  [0m[01;34mbasics[0m  [01;34mio_redirections_and_filters[0m  [01;34mpermissions[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shellroot@Gyarados:~/Holberton/holbertonschool-shell# cd permissions/
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/permissionsroot@Gyarados:~/Holberton/holbertonschool-shell/permissions# ls
+[?2004l[0m[01;32m0-iam_betty[0m                   [01;32m2-groups[0m                [01;36m_hello[0m
+[01;32m1-who_am_i[0m                    [01;32m3-new_owner[0m             [01;34mdir0[0m
+[01;32m10-mirror_permissions[0m         [01;32m4-empty[0m                 [01;34mdir1[0m
+[01;32m11-directories_permissions[0m    [01;32m5-execute[0m               [01;34mdir2[0m
+[01;32m12-directory_permissions[0m      [01;32m6-multiple_permissions[0m  hello
+[01;32m13-change_group[0m               [01;32m7-everybody[0m             [01;34mmy_dir[0m
+[01;32m14-change_owner_and_group[0m     [01;32m8-James_Bond[0m            olleh
+[01;32m15-symbolic_link_permissions[0m  [01;32m9-John_Doe[0m
+[01;32m16-if_only[0m                    README.md
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/permissionsroot@Gyarados:~/Holberton/holbertonschool-shell/permissions# cat 11-directories_permissions 
+[?2004l#!/bin/bash
+find . -type d -exec chmod a+x {} +
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/permissionsroot@Gyarados:~/Holberton/holbertonschool-shell/permissions# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/permissionsroot@Gyarados:~/Holberton/holbertonschool-shell/permissions# cd ..
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shellroot@Gyarados:~/Holberton/holbertonschool-shell# ls
+[?2004lREADME.md  [0m[01;34mbasics[0m  [01;34mio_redirections_and_filters[0m  [01;34mpermissions[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shellroot@Gyarados:~/Holberton/holbertonschool-shell# cd io_redirections_and_filters/
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mfind . -type d -exec chmod a+x {} +[27m[C[C[C[C[Cfind . -type d -exec chmod a+x {} +[K[K +[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mfind . -type d -exec chmod a+x {} +[27m[C[C[C[C[Cfind . -type d -exec chmod a+x {} +[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@r[1@m[C[1@ [1@-[1@r[C[1@ 
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mmkdir \\*\\\'"Best School"\'\\*$\?[27m[C[C[C[C[Cmkdir \\*\\\'"Best School"\'\\*$\?
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m5-firstlines[0m                  [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m6-third_line[0m                  [01;32mtypescript[0m
+ [01;32m3-twofiles[0m         [01;34m'\*\'\''Best School'\''\*$?'[0m
+ [01;32m4-lastlines[0m         [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# rm -r \\\*\\\'Best\ School\'\\\*\$\?/
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir [7mmkdir \\*\\[27m[1Pmkdir \\*\[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mmkdir \\*\\[27m[C[C[C[C[Cmkdir \\*\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls 
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m3-twofiles[0m    [01;32m5-firstlines[0m  [01;34m'\*\'[0m    [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m4-lastlines[0m   [01;32m6-third_line[0m   [01;32miacta[0m   [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls mkdir \\*\\\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\'[0m    [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m  [01;34m'\*\\'[0m   [01;32mtypescript[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\\'
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\'[0m        [01;32miacta[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m  [01;34m'\*\\'[0m       [01;32mscript[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m  [01;34m'\*\\'\'''[0m   [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\\'\'
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \\*\\\\\\'[C[C[C[C[Cls[Kmkdir \\*\\\\\'[C[C[C[C[Cls[Kmkdir \\*\\\\
+[?2004lmkdir: cannot create directory ‘\\*\\\\’: File exists
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \\*\\\\\\'[C[C[C[C[Cls[Kmkdir \\*\\\\\'[C[C[C[C[Cls[Kmkdir \\*\\\\[C[C[C[C[Cls [Kmkdir \\*\\[C[C[C[C[Cls[Krm -r \\\*\\\'Best\ School\'\\\*\$\?/[C[C[C[C[Cls[Kmkdir \\*\\\'"Best School"\'\\*$\?[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +[C[C[C[C[C[1Pcd io_redirections_and_filters/[C[C[C[C[Cfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsfind . -type d -exec rm -r  {} +[C[C[C[C[C[19Pmkdir \\*\\\\\\'[C[C[C[C[Cls[Kmkdir \\*\\\\\'
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\'\'''[0m   [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\\'[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +[C[C[C[C[C[19Pmkdir \\*\\\\\\'[C[C[C[C[Cls[Kmkdir \\*\\\\\'[C[C[C[C[Cls[Kmkdir \\*\\\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\'[0m       [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m  [01;34m'\*\\'\'''[0m   [01;32mtypescript[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\[C[C[C[C[Cls[Kmkdir \\*\\\\\'[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir 'hello'
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;34mhello[0m  [01;32mscript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32miacta[0m  [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \'hello
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m"'hello"[0m             [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32mscript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m    [01;34mhello[0m          [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir "hello"
+[?2004lmkdir: cannot create directory ‘hello’: File exists
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir "hello"[C[C[C[C[Cls[Kmkdir \'hello[C[C[C[C[Cls[Kmkdir 'hello'[C[C[C[C[Cfind . -type d -exec rm -r  {} +[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir "hello"
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;34mhello[0m  [01;32mscript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32miacta[0m  [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \"hello
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# s[Kls
+[?2004l[0m[01;34m'"hello'[0m             [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32mscript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m    [01;34mhello[0m          [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \"hello
+[?2004lmkdir: cannot create directory ‘"hello’: File exists
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \"hello[C[C[C[C[Cls[Kmkdir \"hello"
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \"hello"\"
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m'"hello'[0m             [01;32m2-hellofile[0m   [01;32m5-firstlines[0m   [01;32miacta[0m
+[01;34m'"hello"'[0m            [01;32m3-twofiles[0m    [01;32m6-third_line[0m   [01;32mscript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34mhello[0m          [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \"hello\"[1P"[K[C[C[C[C[Cls[Kmkdir \"hello[C[C[C[C[Cls[Kmkdir "hello"[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \'hello
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m"'hello"[0m             [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32mtypescript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m    [01;32miacta[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir '/[K\he[K[K"hello\"
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir '\"hello\"'
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m"'hello"[0m             [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32mscript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\"hello\"'[0m     [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir 'hello'
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m"'hello"[0m             [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32miacta[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\"hello\"'[0m     [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;34mhello[0m          [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir 'hello'[C[C[C[C[Cls[Kmkdir '\"hello\"'[K[C[C[C[C[Cls[Kmkdir \'hello[C[C[C[C[Cfind . -type d -exec rm -r  {} +\
+[?2004l[?2004h> find . -type d -exec rm -r  {} +\[C[Cls[Kmkdir 'hello'[C[Cls[Kfind . -type d -exec rm -r  {} +\[K
+[?2004lfind: Only one instance of {} is supported with -exec ... +
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir 'hello'
+[?2004lmkdir: cannot create directory ‘hello’: File exists
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# s
+[?2004ls: command not found
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m"'hello"[0m             [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32miacta[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\"hello\"'[0m     [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;34mhello[0m          [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls[1Psmkdir 'hello'[C[C[C[C[Cfind . -type d -exec rm -r  {} +find . -type d -exec rm -r  {} +[C[C[C[C[Cls[Kmkdir 'hello'[C[C[C[C[Cls[Kmkdir '\"hello\"'[K[C[C[C[C[Cls[Kmkdir \'hello[C[C[C[C[Cfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir 'hello'
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;34mhello[0m  [01;32mscript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32miacta[0m  [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \'[K\[K'\"hello\'\"
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m''\''"hello'\''"'[0m    [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32mscript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m    [01;34mhello[0m          [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \'\"hello\'\"[C[C[C[C[Cls[Kmkdir 'hello'[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir "'"[K[K'"hello
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ks
+[?2004lks: command not found
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m"'hello"[0m             [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32mtypescript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m    [01;32miacta[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir 'hello
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \'hello[K[K[K[K[K"he;[Kllo"
+[?2004lmkdir: cannot create directory ‘'hello’: File exists
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \'"hello"[3P'hello[C[C[C[C[Cls[Kksmkdir "'"hello[C[C[C[C[Cfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir "best school"
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'best school'[0m   [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mmkdir \\*\\\\"Best School"\\[27m[C[C[C[C[Cmkdir \\*\\\\"Best School"\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\Best School\'[0m   [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m  [01;34m'best school'[0m        [01;32mtypescript[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\"Best School"\\[1@\[1@"[C[C[C[C[C[C[C[C[C[C[C[C[C[C\"\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\"Best School"\'[0m   [01;32miacta[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m  [01;34m'\*\\Best School\'[0m     [01;32mscript[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m  [01;34m'best school'[0m          [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mfind . -type d -exec rm -r  {} +[27m[C[C[C[C[Cfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mmkdir \\*\\\\"\"Best School"\"\\[27m[C[C[C[C[Cmkdir \\*\\\\"\"Best School"\"\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\"Best School"\'[0m   [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +[C[C[C[C[Cls[Kmkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cls[K[Klsmkdir \\*\\\\"\"Best School"\"\\
+[?2004lmkdir: cannot create directory ‘\\*\\\\"Best School"\\’: File exists
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cls[Kmkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +[C[C[C[C[Cls[Kmkdir \\*\\\\"\"Best School"\"\\
+[?2004lmkdir: cannot create directory ‘\\*\\\\"Best School"\\’: File exists
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cls[Kmkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type d -exec rm -r  {} +[C[C[C[C[Cmkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cls[Kmkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cls[Kmkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cfind . -type d -exec rm -r  {} +[C[C[C[C[C[Kfind . -type d -exec rm -r  {} +[C[C[C[C[Cmkdir \\*\\\\"\"Best School"\"\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\"Best School"\'[0m   [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cfind . -type d -exec rm -r  {} +[C[C[C[C[Cmkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cls[Kmkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +[C[C[C[C[Cls[Kmkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cls[Kmkdir \\*\\\\"Best School"\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\"Best School"\'[0m   [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m  [01;34m'\*\\Best School\'[0m     [01;32mtypescript[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\"Best School"\\[C[C[C[C[Cls[Kmkdir \\*\\\\"\"Best School"\"\\[C[C[C[C[Cfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mmkdir \\*\\\\"\Best School"\\[27m[C[C[C[C[Cmkdir \\*\\\\"\Best School"\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\\Best School\'[0m   [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\"\Best School"\\[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind . -type d -exec rm -r  {} +[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mmkdir \\*\\\\[27m[C[C[C[C[Cmkdir \\*\\\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m3-twofiles[0m    [01;32m5-firstlines[0m  [01;34m'\*\\'[0m   [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m4-lastlines[0m   [01;32m6-third_line[0m   [01;32miacta[0m   [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mmkdir \\*\\\\[27m[C[C[C[C[Cmkdir \\*\\\\\'
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\'[0m       [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m  [01;34m'\*\\'\'''[0m   [01;32mtypescript[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls[Klsmkdir \\*\\\\\'[C[C[C[C[Cls[Kmkdir \\*\\\\[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mmkdir \\*\\\\[27m[C[C[C[C[Cmkdir \\*\\\\'
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \\*\\\\'[K\'
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ;[Kls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\'\'''[0m   [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\\'[1P'[C[C[C[C[Cfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mmkdir \\*\\\\[27m[C[C[C[C[Cmkdir \\*\\\\"Best School"
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# k[Kls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\Best School'[0m   [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\"Best School"[C[1@"[1@'[1@0[1@0[1@0[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C'"
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m"School'"[0m           [01;32miacta[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m  [01;34m'\*\\'\''Best'[0m      [01;32mscript[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m  [01;34m'\*\\Best School'[0m   [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mfind . -type d -exec rm -r  {} +[27m[C[C[C[C[Cfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mmkdir \\*\\\\[27m[C[C[C[C[Cmkdir \\*\\\\
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m3-twofiles[0m    [01;32m5-firstlines[0m  [01;34m'\*\\'[0m   [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m4-lastlines[0m   [01;32m6-third_line[0m   [01;32miacta[0m   [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\[C[C[C[C[Cfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type d -exec rm -r  {} +[C[C[C[C[Cls[Kmkdir \\*\\\\"'""Best School"
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\'\''Best School'[0m   [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\"'""Best School"[C[C[C[C[Cfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type d -exec rm -r  {} +[C[C[C[C[Cls[Kmkdir \\*\\\\"'""Best School"[C[C[C[C[Cfind . -type d -exec rm -r  {} +[C[C[C[C[Cls[Kmkdir \\*\\\\"Best School"
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\Best School'[0m   [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\*\\\\"Best School"[C[C[C[C[Cfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type d -exec rm -r  {} +[C[C[C[C[Cls[Kmkdir \\*\\\\"Best School"[1P[1@\[1@\[C[1@"[C[C[C[C[C[C[C[C[C[C[C[C[C\"
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\"Best School"'[0m   [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir hello [K"'"
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\*\\"Best School"'[0m   [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m  [01;34m"hello'"[0m              [01;32mtypescript[0m
+ [01;32m3-twofiles[0m          [01;32m6-third_line[0m   [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir hello"'"[C[C[C[C[Cls[Kmkdir \\*\\\\\""Best School"\"[C[C[C[C[Cfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir 'hello
+[?2004l[?2004h> l[K^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir hello [K'
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir "'"hello
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m"'hello"[0m             [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32mtypescript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m    [01;32miacta[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir [K[K[K[K[K[Klsmkdir "'"hello[2Phello''hello[C[C[C[C[Cfind . -type d -exec rm -r  {} +[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir "'"hello/[K\'
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m"'hello'"[0m            [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32mtypescript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m    [01;32miacta[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir "'"hello\'[C[C[C[C[Cls[K[Kmkdir /'hola
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir '''hola
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m"'hello'"[0m            [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32mtypescript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m    [01;32miacta[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir '''hola[1P/'hola[C[C[C[C[Cls[Kmkdir "'"hello\'[C[C[C[C[Cfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir //[K[K\\"'"
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m3-twofiles[0m    [01;32m5-firstlines[0m  [01;34m'\'\'''[0m   [01;32mscript[0m
+ [01;32m2-hellofile[0m         [01;32m4-lastlines[0m   [01;32m6-third_line[0m   [01;32miacta[0m    [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\"'"[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# '"[K'"[K'[K[K[Kmkdir '''
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir "'"
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m"'"[0m                  [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32mtypescript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m    [01;32miacta[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir '"
+[?2004l[?2004h> [H[2J> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \\ '"
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \\ '"'
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m'"'[0m                  [01;32m2-hellofile[0m   [01;32m5-firstlines[0m   [01;32miacta[0m
+[01;34m"'"[0m                  [01;32m3-twofiles[0m    [01;32m6-third_line[0m   [01;32mscript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m  [01;34m'\'[0m             [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\ '"'[K[3P'"[C[C[C[C[Cls[Kmkdir "'"'''[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \\ '"'
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m'"'[0m                  [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32mscript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\'[0m             [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\ '"'[C[C[C[C[Cfind . -type d -exec rm -r  {} +[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \'hello
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m"'hello"[0m             [01;32m3-twofiles[0m     [01;32m6-third_line[0m   [01;32mtypescript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m    [01;32miacta[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir \\"'"hello [K"'"
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;34m"'hello"[0m             [01;32m3-twofiles[0m     [01;32m6-third_line[0m      [01;32mscript[0m
+ [01;32m1-confused_smiley[0m   [01;32m4-lastlines[0m   [01;34m'\'\''hello'\'''[0m   [01;32mtypescript[0m
+ [01;32m2-hellofile[0m         [01;32m5-firstlines[0m   [01;32miacta[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsmkdir \\"'"hello"'"[C[C[C[C[Cls[Kmkdir \'hello[C[C[C[C[Cls[Kfind . -type d -exec rm -r  {} +
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mecho 'It'\''s a beautiful day'[27m[C[C[C[C[Cecho 'It'\''s a beautiful day'
+[?2004lIt's a beautiful day
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo '\'
+[?2004l\
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo '\''
+[?2004l[?2004h> [H[2J> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo 'it '\''
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# '\[K[Kecho \\[K[K'\ ' '
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo \[K'\' \[K'
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mecho 'It'\''s a beautiful day'[27m[C[C[C[C[Cecho 'It'\''s a beautiful day'
+[?2004lIt's a beautiful day
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo 'It'\''s a beautiful day'[K"[1P[1@"
+[?2004lIt'\''s a beautiful day
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo "It'\''s a beautiful day"[C[C[C[C[C[C[C[C[C[C'It'\''s a beautiful day'
+[?2004lIt's a beautiful day
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo ''\'''
+[?2004l'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo [7m\\*\\\\\""Best School"\"[27m[C[C[C[C[C[C[C[C[C[C\\*\\\\\""Best School"\"[1@'[1@'[1@\[1@'[1@'[1@'
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo \\*\\\\\''\'''""Best School"\"
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo \\*\\\\\''\'''""Best School"\"[C[C[C[C[Cls[Kecho \\*\\\\\''\'''""Best School"\"[C[C[C[C[C[K[7m\\*\\\\\""Best School"\"[27m[C[C[C[C[C\\*\\\\\""Best School"\"
+[?2004l\*\\"Best School": command not found
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo [7m\\*\\\\\""Best School"\"[27m[C[C[C[C[C[C[C[C[C[C\\*\\\\\""Best School"\"
+[?2004l\*\\"Best School"
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7m\\*\\\\\""Best School"\"[27m[C[C[C[C[C\\*\\\\\""Best School"\"
+[?2004l\*\\"Best School": command not found
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo [7m\\*\\\\\""Best School"\"[27m[C[C[C[C[C[C[C[C[C[C\\*\\\\\""Best School"\"
+[?2004l\*\\"Best School"
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo [7m\\*\\\\\""Best School"\"[27m[C[C[C[C[C[C[C[C[C[C\\*\\\\\""Best School"\"[1@'[1@'[1@\[1@'[1@'[1@'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\\[K[K''\'''
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo \\[K[K''\'''
+[?2004l'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo \''\'''
+[?2004l'\
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo \''\''''\'''
+[?2004l''
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo \\[K[K;;[K[K''\''
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo ;[K''\'''
+[?2004l'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo ''\''' [K ''\;[K'''
+[?2004l' '
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo ''\''' ''\'''[C[C[C[C[C[1@\
+[?2004l'\ '
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo \''\''' ''\'''[C[1@\
+[?2004l\' '
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo ""best school""
+[?2004lbest school
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo \""best schoo;[Kl"\"
+[?2004l"best school"
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# \[K''\''''[K\""best school"\"[1@e[1@c[1@h[1@o[1@ 
+[?2004l'"best school"
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ""[K[Kecho ''\'''\""best school"\"[1@\[1@"[1@"
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo \""''\'''\""best school"\"[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l'"best school"
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo ''\'''\""best school"\"''\'''
+[?2004l'"best school"'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mecho "\*\\'\"Best School\"\'"[27m[C[C[C[C[Cecho "\*\\'\"Best School\"\'"
+[?2004l\*\'"Best School"\'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo "[7m\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)[27m[C[C[C[C[C[C[C[C[C[C[C\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"
+[?2004l\*\'Best School\'\*$\?\*\*\*\*\*:)
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# "[7m\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)[27m[C[C[C[C[C[C\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"[1@e[1@c[1@h[1@o[1@ 
+[?2004l\*\'Best School\'\*$\?\*\*\*\*\*:)
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo "\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"[C[C[C[C[C[C[Kecho "\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"[1@\
+[?2004l\*\\'Best School\'\*$\?\*\*\*\*\*:)
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo "\*\\\'"Best School"\'\\*$\?\*\*\*\*\*:)"[1@\
+[?2004lbash: syntax error near unexpected token `)'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo "\*\\\'\"Best School"\'\\*$\?\*\*\*\*\*:)"[C\"\'\\*$\?\*\*\*\*\*:)"
+[?2004l\*\\'"Best School"\'\*$\?\*\*\*\*\*:)
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo "\*\\\'\"Best School\"\'\\*$\?\*\*\*\*\*:)"[C[C[C[C[C[C[C[C\*$\?\*\*\*\*\*:)"
+[?2004l\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"[H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"ls
+[?2004l\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)ls
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32mscript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [K[A]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [K]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim [7m7-file[27m7-file
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"7-file" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                       [3;1H~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H0,0-1[9CAll[1;1H[?25h[?12$p[?25l[38;1H[1m-- INSERT --[m[38;13H[K[38;55H0,1[11CAll[1;1H[?25h[?25l#[38;55H1,2[1;2H[?25h[?25l![38;57H3[1;3H[?25h[?25l/[38;57H4[1;4H[?25h[?25lb[38;57H5[1;5H[?25h[?25li[38;57H6[1;6H[?25h[?25ln[38;57H7[1;7H[?25h[?25l/[38;57H8[1;8H[?25h[?25lb[38;57H9[1;9H[?25h[?25la[38;57H10[1;10H[?25h[?25ls[38;58H1[1;11H[?25h[?25lh[38;58H2[1;12H[?25h[?25l[2;1H[K[38;55H2,1 [2;1H[?25h[?25l7-file[?25h[?25l[38;57H7[2;7H[?25h[?25l[34m^Z[m[38;57H8-9[2;9H[?25h[?25l[2;7H[K[38;57H7  [2;7H[?25h[?25l[2;6H[K[38;57H6[2;6H[?25h[?25l[2;5H[K[38;57H5[2;5H[?25h[?25l[2;4H[K[38;57H4[2;4H[?25h[?25l[2;3H[K[38;57H3[2;3H[?25h[?25l[2;2H[K[38;57H2[2;2H[?25h[?25l[2;1H[K[38;57H1[2;1H[?25h[?25lecho "\*\\[?25h[?25l\'\"Best School\[?25h[?25l"\'\\\*$\?\*\*\*[?25h[?25l\*\*:)"[?25h[?25l[38;57H50[2;50H[?25h[38;1H[K[2;49H[?25l[38;55H2,49[10CAll[2;49H[?25h[?25l[38;55H[K[38;1H:[?25hx[?25l[?2004l[>4;m"7-file" [New] 2L, 62B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  7-file  [01;32mscript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# bash script 
+[?2004ltype commit message : 
+"haciendo tremenso mkdir    ^C
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vim 7-file 
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"7-file" 2L, 62B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#!/bin/bash[m
+[38;5;130mecho[m[31m [m[38;5;130m"[m[31m\*[m[35m\\\'\"[m[31mBest School[m[35m\"\'\\[m[31m\*$\?\*\*\*\*\*:)[m[38;5;130m"[m[2;50H[K[3;1H[94m~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H1,1[11CAll[1;1H[?25h[?12$p[?25l[38;1H[K[38;1H:[?25hq[?25l[?2004l[>4;m[23;2t[23;1t[38;1H[K[38;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mecho "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"[27m[C[C[C[C[Cecho "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"[C[1P[1P[1P[1P[1@m[1@k[1@d[1@i[1@r
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m7-file[0m
+ [01;32m2-hellofile[0m        [01;34m'\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)'[0m
+ [01;32m3-twofiles[0m          [01;32miacta[0m
+ [01;32m4-lastlines[0m         [01;32mscript[0m
+ [01;32m5-firstlines[0m        [01;32mtypescript[0m
+ [01;32m6-third_line[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [7mecho "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"[27m[C[C[C[C[Cecho "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"
+[?2004l\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# echo "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)" mkdir 0
+[?2004l\*\\'"Best School"\'\\*$\?\*\*\*\*\*:) mkdir 0
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m7-file[0m
+ [01;32m2-hellofile[0m        [01;34m'\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)'[0m
+ [01;32m3-twofiles[0m          [01;32miacta[0m
+ [01;32m4-lastlines[0m         [01;32mscript[0m
+ [01;32m5-firstlines[0m        [01;32mtypescript[0m
+ [01;32m6-third_line[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# mkdir [K[K[K[K[K[Kfilename nam
+[?2004lCommand 'filename' not found, but can be installed with:
+apt install wcstools
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# nam filenam
+[?2004lCommand 'nam' not found, but can be installed with:
+apt install nam
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# man flename
+[?2004lNo manual entry for flename
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# nam[K[K[Kman filename
+[?2004lNo manual entry for filename
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l [0m[01;32m1-confused_smiley[0m   [01;32m7-file[0m
+ [01;32m2-hellofile[0m        [01;34m'\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)'[0m
+ [01;32m3-twofiles[0m          [01;32miacta[0m
+ [01;32m4-lastlines[0m         [01;32mscript[0m
+ [01;32m5-firstlines[0m        [01;32mtypescript[0m
+ [01;32m6-third_line[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# lsman filename[1Plename[C[C[C[C[Cnam filenam[C[C[C[C[Cfilename nam[C[C[C[C[Cls[Kecho "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)" mkdir 0[K[C[C[C[C[Cls[Kmkdir "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"[C[C[C[C[Cvim 7-file [K[C[C[C[C[C[1@bash script[C[C[C[C[C[Cls[Kvim 7-file[C[C[C[C[Cls[Kecho "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"ls[K[1P*$\?\*\*\*\*\*:)"[1P"\'\\*$\?\*\*\*\*\*:)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16P\"Best School\"\'"[C[C[C[C[C[C[C[C[C[C''\'''\""best school"\"''\'''[K[C[C[C[C[C[C[C[C[C[C[3@\""[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P""best school""[C[C[C[C[C[C[C[C[C[C\\''\''' ''\'''[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K\'''\'''[1P\'''[1P''\'''\\*\\\\\''\'''""Best School"\"''\'''[C[C[C[C[C[C[C[C[C[C''\'''[K\''\''''\'''[3P''\''' ''\'''[C[C[C[C[C[C[C[C[C[C[1@\[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@\[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C""best school""[C[C[C[C[C[C[C[C[C[C\""best school"\"[C[C[C[C[C[C[C[C[C[C[6@''\'''[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@\""[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C''\'''[C[C[C[C[C[C[C[C[C[C[5P"\*\\'\"Best School\"\'"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"Best School"\'\\*$\?\*\*\*\*\*:)"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@\[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@\[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C\"\'\\*$\?\*\*\*\*\*:)"\*$\?\*\*\*\*\*:)"ls[C[C[C[C[Cls[Kvim 7-file[C[C[C[C[Cls[Kbash script [C[C[C[C[C[1Pvim 7-file[C[C[C[C[C[Cmkdir "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)"[C[C[C[C[Cls[Kecho "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)" mkdir 0[C[C[C[C[Cls[Kfilename nam[C[C[C[C[C[1Pnam filenam[C[C[C[C[Cman flenameilename[C[C[C[C[Cls[K[K[A(reverse-i-search)`': [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf': man [7mf[27milenamei': man [7mfi[27mlenamen': [7mfin[27md . -type d -exec rm -r  {} +[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@failed reverse-i-search)`finc': fin]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# find . -type d -exec rm -r  {} +[C[C[C[C[C[C
+[?2004lrm: refusing to remove '.' or '..' directory: skipping '.'
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m3-twofiles[0m   [01;32m5-firstlines[0m  [01;32m7-file[0m  [01;32mscript[0m
+[01;32m2-hellofile[0m        [01;32m4-lastlines[0m  [01;32m6-third_line[0m  [01;32miacta[0m   [01;32mtypescript[0m
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls -la | ls_cwd_content
+[?2004lls_cwd_content: command not found
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls pl[K[K-la >> ls_cwd_content
+[?2004l[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m4-lastlines[0m   [01;32m7-file[0m          [01;32mscript[0m
+[01;32m2-hellofile[0m        [01;32m5-firstlines[0m  [01;32miacta[0m           [01;32mtypescript[0m
+[01;32m3-twofiles[0m         [01;32m6-third_line[0m  ls_cwd_content
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# cat ls_cwd_content 
+[?2004ltotal 176
+drwxr-xr-x 2 root root   4096 Jun 12 13:04 .
+drwxr-xr-x 6 root root   4096 Jun 12 09:45 ..
+-rwxr-xr-x 1 root root     28 Jun 12 10:23 1-confused_smiley
+-rwxr-xr-x 1 root root     28 Jun 12 10:27 2-hellofile
+-rwxr-xr-x 1 root root     39 Jun 12 10:48 3-twofiles
+-rwxr-xr-x 1 root root     35 Jun 12 10:50 4-lastlines
+-rwxr-xr-x 1 root root     35 Jun 12 10:51 5-firstlines
+-rwxr-xr-x 1 root root     39 Jun 12 11:00 6-third_line
+-rwxr-xr-x 1 root root     62 Jun 12 12:58 7-file
+-rwxr-xr-x 1 root root    746 Jun 12 10:53 iacta
+-rw-r--r-- 1 root root      0 Jun 12 13:04 ls_cwd_content
+-rwxr-xr-x 1 root root    111 Jun 12 10:41 script
+-rwxr-xr-x 1 root root 131072 Jun 12 13:02 typescript
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# [H[2J]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# ls
+[?2004l[0m[01;32m1-confused_smiley[0m  [01;32m4-lastlines[0m   [01;32m7-file[0m          [01;32mscript[0m
+[01;32m2-hellofile[0m        [01;32m5-firstlines[0m  [01;32miacta[0m           [01;32mtypescript[0m
+[01;32m3-twofiles[0m         [01;32m6-third_line[0m  ls_cwd_content
+[?2004h]0;root@Gyarados: ~/Holberton/holbertonschool-shell/io_redirections_and_filtersroot@Gyarados:~/Holberton/holbertonschool-shell/io_redirections_and_filters# vm[Kim [7m8-cwd_state[27m[C[C[C[C[C[C[C[C[C8-cwd_state
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;38r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[38;1H"8-cwd_state" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                       [3;1H~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [27;1H~                                                                       [28;1H~                                                                       [29;1H~                                                                       [30;1H~                                                                       [31;1H~                                                                       [32;1H~                                                                       [33;1H~                                                                       [34;1H~                                                                       [35;1H~                                                                       [36;1H~                                                                       [37;1H~                                                                       [m[38;55H0,0-1[9CAll[1;1H[?25h[?12$p[?25l[38;1H[1m-- INSERT --[m[38;13H[K[38;55H0,1[11CAll[1;1H[?25h[?25l#[38;55H1,2[1;2H[?25h[?25l![38;57H3[1;3H[?25h[?25l/[38;57H4[1;4H[?25h[?25lb[38;57H5[1;5H[?25h[?25ln[38;57H6[1;6H[?25h[?25l[1;5H[K[38;57H5[1;5H[?25h[?25li[38;57H6[1;6H[?25h[?25ln[38;57H7[1;7H[?25h[?25l/[38;57H8[1;8H[?25h[?25lb[38;57H9[1;9H[?25h[?25la[38;57H10[1;10H[?25h[?25ls[38;58H1[1;11H[?25h[?25lh[38;58H2[1;12H[?25h[?25l[2;1H[K[38;55H2,1 [2;1H[?25h[?25ll[38;57H2[2;2H[?25h[?25ls[38;57H3[2;3H[?25h[?25l[38;57H4[2;4H[?25h[?25l-[38;57H5[2;5H[?25h[?25ll[38;57H6[2;6H[?25h[?25la[38;57H7[2;7H[?25h[?25l[38;57H8[2;8H[?25h[?25l>[38;57H9[2;9H[?25h[?25l[38;57H10[2;10H[?25h[?25ll[38;58H1[2;11H[?25h[?25lw[38;58H2[2;12H[?25h[?25ls[38;58H3[2;13H[?25h[?25l[2;12H[K[38;58H2[2;12H[?25h[?25l[2;11H[K[38;58H1[2;11H[?25h[?25ls[38;58H2[2;12H[?25h[?25l_[38;58H3[2;13H[?25h[?25lc[38;58H4[2;14H[?25h[?25lw[38;58H5[2;15H[?25h[?25ld[38;58H6[2;16H[?25h[?25l_[38;58H7[2;17H[?25h[?25lc[38;58H8[2;18H[?25h[?25lo[38;58H9[2;19H[?25h[?25ln[38;57H20[2;20H[?25h[?25lt[38;58H1[2;21H[?25h[?25le[38;58H2[2;22H[?25h[?25ln[38;58H3[2;23H[?25h[?25lt[38;58H4[2;24H[?25h[38;1H[K[2;23H[?25l[38;55H2,23[10CAll[2;23H[?25h[?25l[38;55H[K[38;1H:[?25hx[?25l[?2004l[>
