@@ -1,0 +1,2 @@
+#!/bin/bash
+let sum=128+$TRUEKNOWLEDGE | echo $sum
