@@ -1,1 +1,1 @@
-Readme del proyecto Shell, init files, variables and expansions
+creando proyecto de Shell, init files, variables and expansions
