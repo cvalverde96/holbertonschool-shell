@@ -1,5 +1,5 @@
 #!/bin/bash 
-chmod +x *
+chmod 700 *
 git add .
 echo "type commit message : " 
 read message 
